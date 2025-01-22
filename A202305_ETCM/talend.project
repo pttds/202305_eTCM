@@ -4,4 +4,21 @@
     <migrationTask xmi:id="_6KB9oNh1Ee-hHvhfT0CaSg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_6JE7Yth1Ee-hHvhfT0CaSg" login="zvarut.v@pttgcgroup.com" firstName="Varut" lastName="Wiseschinda" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNENifEe-zu_aegtPhaA" login="guypetch.s@pttgcgroup.com" firstName="Guypetch" lastName="Singsuwan" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNEdifEe-zu_aegtPhaA" login="tirawuth.y@pttgcgroup.com" firstName="Tirawuth" lastName="Yamsri" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNEtifEe-zu_aegtPhaA" login="zpitsamorn.in@pttgcgroup.com" firstName="Pitsamorn" lastName="Ingkavara" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNE9ifEe-zu_aegtPhaA" login="datagovernance@pttgcgroup.com" firstName="Data" lastName="Governance" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNFNifEe-zu_aegtPhaA" login="zpanudeth.s@pttgcgroup.com" firstName="Panudeth" lastName="Sirimanuwat" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNFdifEe-zu_aegtPhaA" login="zmaratree.s@pttgcgroup.com" firstName="Maratree" lastName="Supasing" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNFtifEe-zu_aegtPhaA" login="zratree.p@pttgcgroup.com" firstName="Ratree" lastName="Pasorlee" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNF9ifEe-zu_aegtPhaA" login="zpanudet.j@pttgcgroup.com" firstName="Panudet" lastName="Jaidet" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNGNifEe-zu_aegtPhaA" login="zwarakorn.u@pttgcgroup.com" firstName="Warakorn" lastName="Upamai" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNGdifEe-zu_aegtPhaA" login="zsaharat.r@pttgcgroup.com" firstName="Saharat" lastName="Rueangsin" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNGtifEe-zu_aegtPhaA" login="ztraiphop.l@pttgcgroup.com" firstName="Traiphop" lastName="Lertthanasaengthum" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNG9ifEe-zu_aegtPhaA" login="dataplatformoperationsupport@pttgcgroup.com" firstName="Platform" lastName="Support" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNHNifEe-zu_aegtPhaA" login="zpisut.w@pttgcgroup.com" firstName="Pisut" lastName="Weerasak" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNHdifEe-zu_aegtPhaA" login="zchatchawan.s@pttgcgroup.com" firstName="Chatchawan" lastName="Saenghong" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNHtifEe-zu_aegtPhaA" login="znontakon.k@pttgcgroup.com" firstName="Nontakon" lastName="Kerdmongkol" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNH9ifEe-zu_aegtPhaA" login="zwittawin.t@pttgcgroup.com" firstName="Wittawin" lastName="Thepsuparungsikul" type="DQ"/>
+  <TalendProperties:User xmi:id="_5woNINifEe-zu_aegtPhaA" login="saitarn.d@pttgcgroup.com" firstName="Saitarn" lastName="Dokchan" type="DQ"/>
 </xmi:XMI>
