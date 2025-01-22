@@ -1,5 +1,28 @@
 [ {
   "baseItem" : {
+    "id" : "_9w79cNh2Ee-hHvhfT0CaSg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_GTJXsDyXEeuTP5qDkF8ccQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "AwsSecretsManagerUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendAwsSecretsManagerHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_MFtgAOJMEe2ccPfxj1HsKQ",
     "version" : "0.1",
     "type" : "job"
@@ -159,5 +182,20 @@
     "id" : "_gfs0cNKUEe2mIZQEAY2Khg - talend_job_log_test",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_GTJXsDyXEeuTP5qDkF8ccQ",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "AwsSecretsManagerUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendAwsSecretsManagerHelper",
+    "version" : "Latest",
+    "type" : "routine"
   } ]
 } ]
