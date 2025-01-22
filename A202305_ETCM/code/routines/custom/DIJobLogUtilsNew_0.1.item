@@ -1,0 +1,171 @@
+package routines;   
+
+import java.sql.*;
+import java.util.UUID;
+
+public class DIJobLogUtilsNew {
+
+	private static String TBL_JOB_LOG = "public.talend_job_log";
+	private static String TBL_JOB_TASK_LOG = "public.talend_job_task_log";
+	
+	private static String CURRENT_TIME = "timezone('utc', now()) + interval '7 hour'";
+	
+	/* To generate UUID */
+	private static String getUUID() {
+		UUID uuid = UUID.randomUUID(); 
+        return uuid.toString();  
+	}
+
+	/* For TBL_JOB_LOG */
+    public static String jobLogInit(java.sql.Connection conn, String jobName, boolean autoCommit) {
+        String logID = getUUID();         
+        System.out.println("LogID: " + logID);
+        String jobStatus = "RUN";
+        
+        try{
+	    	Statement stmt = conn.createStatement();
+	    	
+	    	String sqlInsert = "INSERT INTO " + TBL_JOB_LOG + " (log_id, main_job_name, job_status, strt_dt, end_dt, status_message, last_interval, created_by, created_dt, updated_by, updated_dt)\n"
+	    			+ String.format("VALUES('%1$s', '%2$s', '%3$s', " + CURRENT_TIME + ", null, null, null, 'SYSTEM', " + CURRENT_TIME + ", 'SYSTEM', " + CURRENT_TIME + ");", logID, jobName, jobStatus);
+
+	    	System.out.println("SQL Command: \r\n" + sqlInsert);	    	
+	    	stmt.execute(sqlInsert);
+	    	System.out.println("SQL Execute Complete");
+	    	
+	    	if (autoCommit) {
+	    		conn.commit();
+	    	}
+	        stmt.close();	
+	        System.out.println("Log Init");
+		 }catch(SQLException ex){
+			 System.out.println("Exception: \r\n" + ex.toString());
+	     }
+        return logID;
+    }
+    
+    private static void jobLogUpdate(java.sql.Connection conn, String logID, String jobStatus, String jobMessage, boolean autoCommit, java.util.Date lastInterval) {
+        try{
+	    	Statement stmt = conn.createStatement();
+	    	
+	    	String lastIntervalSQL = "";
+	    	if (lastInterval != null) {
+	    		lastIntervalSQL = " last_interval = '" + lastInterval + "',";
+	    	}
+	    	
+	    	String sqlUpdate = "UPDATE " + TBL_JOB_LOG + " SET "
+	    			+ " job_status = '" + jobStatus + "',"
+	    			+ " end_dt = " + CURRENT_TIME + ","
+	    			+ " status_message = '" + jobMessage + "',"
+	    			+ lastIntervalSQL
+	    			+ " updated_by = 'SYSTEM',"
+	    			+ " updated_dt = " + CURRENT_TIME + ""
+	    			+ " where log_id = '" + logID + "'";
+
+	    	System.out.println("SQL Command: \r\n" + sqlUpdate);	    	
+	    	stmt.execute(sqlUpdate);
+	    	System.out.println("SQL Execute Complete");
+	    	
+	    	if (autoCommit) {
+	    		conn.commit();
+	    	}
+	        stmt.close();	    	
+		 }catch(SQLException ex){
+			 System.out.println("Exception: \r\n" + ex.toString());
+	     }
+    }
+    
+    public static void jobLogSuccess(java.sql.Connection conn, String logID, boolean autoCommit, java.util.Date lastInterval) {
+    	String jobStatus = "SUC";
+    	String jobMessage ="Success";
+    	jobLogUpdate(conn, logID, jobStatus, jobMessage, autoCommit, lastInterval);
+    	System.out.println("Log Success");
+    }
+    
+    public static void jobLogSuccess(java.sql.Connection conn, String logID, boolean autoCommit) {
+    	String jobStatus = "SUC";
+    	String jobMessage ="Success";
+    	jobLogUpdate(conn, logID, jobStatus, jobMessage, autoCommit, null);
+    	System.out.println("Log Success");
+    }
+    
+    public static void jobLogError(java.sql.Connection conn, String logID, String errorMessage, boolean autoCommit) {
+    	String jobStatus = "ERR";
+    	jobLogUpdate(conn, logID, jobStatus, errorMessage, autoCommit, null);  
+    	System.out.println("Log Error");
+    }
+    
+    /* For TBL_JOB_TASK_LOG */
+    public static String jobTaskLogInit(java.sql.Connection conn, String logID, String taskName, String taskType, int taskSeq, String tgtName, boolean autoCommit) {
+        String taskLogID = getUUID();         
+        System.out.println("TaskLogID: " + taskLogID);       
+        String taskStatus = "RUN";
+        try{
+	    	Statement stmt = conn.createStatement();
+	    	
+	    	String sqlSelect = String.format("SELECT distinct main_job_name from " + TBL_JOB_LOG + " where log_id = '%1$s'", logID);
+	    	
+	    	ResultSet rs = stmt.executeQuery(sqlSelect);
+	    	String mainJobName = "";
+	    	while (rs.next()) {
+	    		mainJobName = rs.getString("main_job_name");
+	    	}
+	    	
+	    	String sqlInsert = "INSERT INTO " + TBL_JOB_TASK_LOG + " (task_log_id, log_id, main_job_name, task_name, task_type, task_seq, task_sts, strt_dt, end_dt, target_table, target_cnt, status_message, created_by, created_dt, updated_by, updated_dt)\n"
+	    			+ String.format("VALUES('%1$s', '%2$s', '%3$s', '%4$s', '%5$s', '%6$s', '%7$s', " + CURRENT_TIME + ", null, '%8$s', null, null, 'SYSTEM', " + CURRENT_TIME + ", 'SYSTEM', " + CURRENT_TIME + ");", 
+	    					taskLogID, logID, mainJobName, taskName, taskType, taskSeq, taskStatus, tgtName);
+
+	    	System.out.println("SQL Command: \r\n" + sqlInsert);	    	
+	    	stmt.execute(sqlInsert);
+	    	System.out.println("SQL Execute Complete");
+	    	
+	    	if (autoCommit) {
+	    		conn.commit();
+	    	}
+	        stmt.close();	
+	        System.out.println("Task Log Init");
+		 }catch(SQLException ex){
+			 System.out.println("Exception: \r\n" + ex.toString());
+	     }
+        return taskLogID;
+    }
+    
+    private static void jobTaskLogUpdate(java.sql.Connection conn, String taskLogID, String taskStatus, int srcCount, String statusMessage, boolean autoCommit) {
+        try{
+	    	Statement stmt = conn.createStatement();
+	    	
+	    	String sqlUpdate = "UPDATE " + TBL_JOB_TASK_LOG + " SET "
+	    			+ " task_sts = '" + taskStatus + "',"
+	    			+ " end_dt = " + CURRENT_TIME + ","
+	    			+ " target_cnt = " + srcCount + ","
+	    			+ " status_message = '" + statusMessage + "',"
+	    			+ " updated_by = 'SYSTEM',"
+	    			+ " updated_dt = " + CURRENT_TIME + ""
+	    			+ " where task_log_id = '" + taskLogID + "'";
+
+	    	System.out.println("SQL Command: \r\n" + sqlUpdate);	    	
+	    	stmt.execute(sqlUpdate);
+	    	System.out.println("SQL Execute Complete");
+	    	
+	    	if (autoCommit) {
+	    		conn.commit();
+	    	}
+	        stmt.close();	    	
+		 }catch(SQLException ex){
+			 System.out.println("Exception: \r\n" + ex.toString());
+	     }
+    }
+    
+    public static void jobTaskLogSuccess(java.sql.Connection conn, String taskLogID, int tgtCount, boolean autoCommit) {
+    	String taskStatus = "SUC";
+    	String taskMessage ="Success";
+    	jobTaskLogUpdate(conn, taskLogID, taskStatus, tgtCount, taskMessage, autoCommit);
+    	System.out.println("Task Log Success");
+    }
+    
+    public static void jobTaskLogError(java.sql.Connection conn, String taskLogID, String errorMessage, boolean autoCommit) {
+    	String taskStatus = "ERR";
+    	jobTaskLogUpdate(conn, taskLogID, taskStatus, -1, errorMessage, autoCommit);  
+    	System.out.println("Task Log Error");
+    }
+
+}

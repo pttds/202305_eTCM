@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_s5PYIfsREe2P_Pejgfw8OA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_s6CCUPsREe2P_Pejgfw8OA" comment="Test plan 01" name="name_plan" prompt="name_plan?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCUfsREe2P_Pejgfw8OA" comment="Test task 01" name="name_task" prompt="name_task?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCUvsREe2P_Pejgfw8OA" comment="1" name="sequence" prompt="sequence?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_s6CCU_sREe2P_Pejgfw8OA" comment="1" name="total" prompt="total?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_s6CCVfsREe2P_Pejgfw8OA" comment="test" name="type" prompt="type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCVvsREe2P_Pejgfw8OA" comment="test source" name="source" prompt="source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCV_sREe2P_Pejgfw8OA" comment="test target" name="target" prompt="target?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCWPsREe2P_Pejgfw8OA" comment="20230525" name="data_dt" prompt="data_dt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCWfsREe2P_Pejgfw8OA" comment="999" name="row_count" prompt="row_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCWvsREe2P_Pejgfw8OA" comment="test test test" name="remark" prompt="remark?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_Qy-3YP6bEe2GOOfXZwU6Rw" comment="done,fail,running" name="status" prompt="status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

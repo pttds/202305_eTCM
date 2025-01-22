@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_pmnPIMVuEe2-YPe43jJGDQ" name="redshift_jdbc_dev" id="_pla8UMVuEe2-YPe43jJGDQ" label="redshift_jdbc_dev" dataPackage="_tT9qsMVuEe2-YPe43jJGDQ" DatabaseType="Redshift" DriverClass="com.amazon.redshift.jdbc42.Driver" URL="jdbc:redshift://redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com:5439/dev?" Port="5439" Username="gc_saitarn_admin" Password="enc:system.encryption.key.v1:AoFq7BspxI4Cefn8DEVb0ZbS9XPHDx6yAhIMGgx56iAMn0nLDzhVJt4=" ServerName="redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com" DatasourceName="" FileFieldName="" SID="dev" SqlSynthax="" StringQuote="" NullChar="" DbmsId="redshift_id" ProductId="REDSHIFT" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_I8S2wXn7Ee2rk_t22VedRg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_I9CdoHn7Ee2rk_t22VedRg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_I9LnkHn7Ee2rk_t22VedRg" tag="Status" value=""/>
+    <taggedValue xmi:id="_I9LnkXn7Ee2rk_t22VedRg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_I9Lnknn7Ee2rk_t22VedRg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_I9Lnk3n7Ee2rk_t22VedRg" tag="Description" value=""/>
+    <taggedValue xmi:id="_I9LnlHn7Ee2rk_t22VedRg" tag="Author" value=""/>
+    <taggedValue xmi:id="_I9LnlXn7Ee2rk_t22VedRg" tag="otherParameter"/>
+    <taggedValue xmi:id="_I9oTgHn7Ee2rk_t22VedRg" tag="DB ProductName" value="Redshift"/>
+    <taggedValue xmi:id="_I9oTgXn7Ee2rk_t22VedRg" tag="DB ProductVersion" value="8.0.2"/>
+    <taggedValue xmi:id="_I9oTgnn7Ee2rk_t22VedRg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_I8S2wnn7Ee2rk_t22VedRg" key="CONN_PARA_KEY_REDSHIFT_STRINGPARA" value="false"/>
+    <parameters xmi:id="_I8S2w3n7Ee2rk_t22VedRg" key="CONN_PARA_KEY_REDSHIFT_DRIVER" value="DRIVER_V2"/>
+    <parameters xmi:id="_I8S2xHn7Ee2rk_t22VedRg" key="CONN_PARA_KEY_USERNAME" value="gc_saitarn_admin"/>
+    <parameters xmi:id="_0MUVwIITEe2H781edUSS5A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_tT9qsMVuEe2-YPe43jJGDQ" name="dev" dataManager="_pmnPIMVuEe2-YPe43jJGDQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qscVuEe2-YPe43jJGDQ" name="catalog_history"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qssVuEe2-YPe43jJGDQ" name="cfg"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qs8VuEe2-YPe43jJGDQ" name="curated_icis"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qtMVuEe2-YPe43jJGDQ" name="curated_platts"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qtcVuEe2-YPe43jJGDQ" name="demo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qtsVuEe2-YPe43jJGDQ" name="ext_energyaspects"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qt8VuEe2-YPe43jJGDQ" name="ext_energyaspects_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9quMVuEe2-YPe43jJGDQ" name="ext_energyaspects_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qucVuEe2-YPe43jJGDQ" name="ext_energyaspects_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qusVuEe2-YPe43jJGDQ" name="ext_icis"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qu8VuEe2-YPe43jJGDQ" name="ext_icis_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qvMVuEe2-YPe43jJGDQ" name="ext_icis_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qvcVuEe2-YPe43jJGDQ" name="ext_icis_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qvsVuEe2-YPe43jJGDQ" name="ext_ihs"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qv8VuEe2-YPe43jJGDQ" name="ext_ihs_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qwMVuEe2-YPe43jJGDQ" name="ext_ihs_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qwcVuEe2-YPe43jJGDQ" name="ext_ihs_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qwsVuEe2-YPe43jJGDQ" name="ext_lims_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qw8VuEe2-YPe43jJGDQ" name="ext_lims_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qxMVuEe2-YPe43jJGDQ" name="ext_meteomatics"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qxcVuEe2-YPe43jJGDQ" name="ext_meteomatics_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qxsVuEe2-YPe43jJGDQ" name="ext_meteomatics_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qx8VuEe2-YPe43jJGDQ" name="ext_osipi_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qyMVuEe2-YPe43jJGDQ" name="ext_osipi_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qycVuEe2-YPe43jJGDQ" name="ext_osipi_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qysVuEe2-YPe43jJGDQ" name="ext_platts"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qy8VuEe2-YPe43jJGDQ" name="ext_platts_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qzMVuEe2-YPe43jJGDQ" name="ext_platts_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qzcVuEe2-YPe43jJGDQ" name="ext_platts_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qzsVuEe2-YPe43jJGDQ" name="ext_ravenpack"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9qz8VuEe2-YPe43jJGDQ" name="ext_ravenpack_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q0MVuEe2-YPe43jJGDQ" name="ext_ravenpack_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q0cVuEe2-YPe43jJGDQ" name="ext_sap5domains_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q0sVuEe2-YPe43jJGDQ" name="ext_test2"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q08VuEe2-YPe43jJGDQ" name="ext_twelvedata"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q1MVuEe2-YPe43jJGDQ" name="ext_twelvedata_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q1cVuEe2-YPe43jJGDQ" name="ext_twelvedata_master"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q1sVuEe2-YPe43jJGDQ" name="ext_twelvedata_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q18VuEe2-YPe43jJGDQ" name="ext_twelvedata_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q2MVuEe2-YPe43jJGDQ" name="external_data"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q2cVuEe2-YPe43jJGDQ" name="gc_saitarn"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q2sVuEe2-YPe43jJGDQ" name="icis_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q28VuEe2-YPe43jJGDQ" name="icis_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q3MVuEe2-YPe43jJGDQ" name="icis_raw"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q3cVuEe2-YPe43jJGDQ" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q3sVuEe2-YPe43jJGDQ" name="ipaas_dq"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q38VuEe2-YPe43jJGDQ" name="ipaas_dq_bk"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q4MVuEe2-YPe43jJGDQ" name="ipaas_ext"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q4cVuEe2-YPe43jJGDQ" name="ipaas_ext_test"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q4sVuEe2-YPe43jJGDQ" name="ipaas_ext_test_2"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q48VuEe2-YPe43jJGDQ" name="ipaas_external_datasource"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q5MVuEe2-YPe43jJGDQ" name="ipaas_result"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q5cVuEe2-YPe43jJGDQ" name="lims_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q5sVuEe2-YPe43jJGDQ" name="lims_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q58VuEe2-YPe43jJGDQ" name="log"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q6MVuEe2-YPe43jJGDQ" name="ods_icis"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q6cVuEe2-YPe43jJGDQ" name="ods_platts"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q6sVuEe2-YPe43jJGDQ" name="osipi_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q68VuEe2-YPe43jJGDQ" name="osipi_ext"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q7MVuEe2-YPe43jJGDQ" name="pg_automv"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q7cVuEe2-YPe43jJGDQ" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q7sVuEe2-YPe43jJGDQ" name="pg_internal"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q78VuEe2-YPe43jJGDQ" name="platts_curated"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q8MVuEe2-YPe43jJGDQ" name="platts_ext"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q8cVuEe2-YPe43jJGDQ" name="platts_ext_test"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q8sVuEe2-YPe43jJGDQ" name="platts_ods"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q88VuEe2-YPe43jJGDQ" name="public"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q9MVuEe2-YPe43jJGDQ" name="qa_ipaas_ext"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q9cVuEe2-YPe43jJGDQ" name="raw_icis"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q9sVuEe2-YPe43jJGDQ" name="raw_platts"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q98VuEe2-YPe43jJGDQ" name="sp"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q-MVuEe2-YPe43jJGDQ" name="test_config"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q-cVuEe2-YPe43jJGDQ" name="test_platts"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q-sVuEe2-YPe43jJGDQ" name="test_upsert"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q-8VuEe2-YPe43jJGDQ" name="v_icis"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_tT9q_MVuEe2-YPe43jJGDQ" name="v_platts"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_OsxX4OV4Ee2glKlyYETBPw" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_OsxX4eV4Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_host" prompt="connection_etcmSapSftp_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;10.36.128.27&quot;"/>
+    <contextParameter xmi:id="_OsxX4uV4Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+    <contextParameter xmi:id="_OsxX4-V4Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_username" prompt="connection_etcmSapSftp_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dev_etcm&quot;"/>
+    <contextParameter xmi:id="_OsxX5OV4Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_password" prompt="connection_etcmSapSftp_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:j0pnpLGorqN0levJpRps1NyIKnnLaKVLsZCCk0Q9IN+kchY4JUI="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DBqJsOV6Ee2glKlyYETBPw" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_DBqJseV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_host" prompt="connection_etcmSapSftp_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;10.36.128.27&quot;"/>
+    <contextParameter xmi:id="_DBqJsuV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+    <contextParameter xmi:id="_DBqJs-V6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_username" prompt="connection_etcmSapSftp_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dev_etcm&quot;"/>
+    <contextParameter xmi:id="_DBqJtOV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_password" prompt="connection_etcmSapSftp_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:c7FSUcxS4Y8pQ3t3ZdMK7uczmP76OCHltEguNWGWZ3TLthLjrNQ="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DBqJteV6Ee2glKlyYETBPw" confirmationNeeded="false" name="qa">
+    <contextParameter xmi:id="_DBqJtuV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_host" prompt="connection_etcmSapSftp_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;10.36.128.27&quot;"/>
+    <contextParameter xmi:id="_DBqJt-V6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+    <contextParameter xmi:id="_DBqJuOV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_username" prompt="connection_etcmSapSftp_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dev_etcm&quot;"/>
+    <contextParameter xmi:id="_DBqJueV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_password" prompt="connection_etcmSapSftp_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QuKVc2BK22pnC3/cKCkFuhmu6WouAeCd8Zzlc264vE1hd1Uu9N8="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DBqJuuV6Ee2glKlyYETBPw" confirmationNeeded="false" name="prod">
+    <contextParameter xmi:id="_DBqJu-V6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_host" prompt="connection_etcmSapSftp_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;10.36.128.27&quot;"/>
+    <contextParameter xmi:id="_DBqJvOV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+    <contextParameter xmi:id="_DBqJveV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_username" prompt="connection_etcmSapSftp_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dev_etcm&quot;"/>
+    <contextParameter xmi:id="_DBqJvuV6Ee2glKlyYETBPw" comment="" name="connection_etcmSapSftp_password" prompt="connection_etcmSapSftp_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:Ss7eFWHfqJ79X9X35hC1chslLKGZ6r+/nmmLAwOTNwFWjbp0yJc="/>
+  </talendfile:ContextType>
+</xmi:XMI>

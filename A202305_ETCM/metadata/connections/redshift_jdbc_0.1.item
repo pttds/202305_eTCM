@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_I8S2wHn7Ee2rk_t22VedRg" name="redshift_jdbc" id="_yPNa0Hn6Ee2rk_t22VedRg" label="redshift_jdbc" dataPackage="_ARMOULpmEe2gG_3sD4pNTQ" DatabaseType="Redshift" DriverClass="com.amazon.redshift.jdbc42.Driver" URL="jdbc:redshift://redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com:5439/experiment?" Port="5439" Username="gc_saitarn_admin" Password="enc:system.encryption.key.v1:AoFq7BspxI4Cefn8DEVb0ZbS9XPHDx6yAhIMGgx56iAMn0nLDzhVJt4=" ServerName="redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com" DatasourceName="" FileFieldName="" SID="experiment" SqlSynthax="" StringQuote="" NullChar="" DbmsId="redshift_id" ProductId="REDSHIFT" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_I8S2wXn7Ee2rk_t22VedRg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_I9CdoHn7Ee2rk_t22VedRg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_I9LnkHn7Ee2rk_t22VedRg" tag="Status" value=""/>
+    <taggedValue xmi:id="_I9LnkXn7Ee2rk_t22VedRg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_I9Lnknn7Ee2rk_t22VedRg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_I9Lnk3n7Ee2rk_t22VedRg" tag="Description" value=""/>
+    <taggedValue xmi:id="_I9LnlHn7Ee2rk_t22VedRg" tag="Author" value=""/>
+    <taggedValue xmi:id="_I9LnlXn7Ee2rk_t22VedRg" tag="otherParameter"/>
+    <taggedValue xmi:id="_I9oTgHn7Ee2rk_t22VedRg" tag="DB ProductName" value="Redshift"/>
+    <taggedValue xmi:id="_I9oTgXn7Ee2rk_t22VedRg" tag="DB ProductVersion" value="8.0.2"/>
+    <taggedValue xmi:id="_I9oTgnn7Ee2rk_t22VedRg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_I8S2wnn7Ee2rk_t22VedRg" key="CONN_PARA_KEY_REDSHIFT_STRINGPARA" value="false"/>
+    <parameters xmi:id="_I8S2w3n7Ee2rk_t22VedRg" key="CONN_PARA_KEY_REDSHIFT_DRIVER" value="DRIVER_V2"/>
+    <parameters xmi:id="_I8S2xHn7Ee2rk_t22VedRg" key="CONN_PARA_KEY_USERNAME" value="gc_saitarn_admin"/>
+    <parameters xmi:id="_0MUVwIITEe2H781edUSS5A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ARMOULpmEe2gG_3sD4pNTQ" name="experiment" dataManager="_I8S2wHn7Ee2rk_t22VedRg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOUbpmEe2gG_3sD4pNTQ" name="catalog_history"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOUrpmEe2gG_3sD4pNTQ" name="ext_test2"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOU7pmEe2gG_3sD4pNTQ" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOVLpmEe2gG_3sD4pNTQ" name="ods_ext_test"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOVbpmEe2gG_3sD4pNTQ" name="pg_automv"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOVrpmEe2gG_3sD4pNTQ" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOV7pmEe2gG_3sD4pNTQ" name="pg_internal"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOWLpmEe2gG_3sD4pNTQ" name="public"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOWbpmEe2gG_3sD4pNTQ" name="raw_ext_test"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ARMOWrpmEe2gG_3sD4pNTQ" name="test_ext_platts"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

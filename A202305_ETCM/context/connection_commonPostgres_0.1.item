@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_wnDM8N6REe2Q1sI5LVHJYQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_wnDM8d6REe2Q1sI5LVHJYQ" comment="" name="connection_commonPostgres_Password" prompt="connection_commonPostgres_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:tOY9Ao3veHrZS5567xhaTmu6rTEvV+VDVXxUdd05YQQpsMLvt9BOzmtECn0="/>
+  <contextParameter xmi:id="_wnDM8t6REe2Q1sI5LVHJYQ" comment="" name="connection_commonPostgres_Port" prompt="connection_commonPostgres_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_wnDM896REe2Q1sI5LVHJYQ" comment="" name="connection_commonPostgres_Schema" prompt="connection_commonPostgres_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customeranalytics"/>
+  <contextParameter xmi:id="_wnDM9N6REe2Q1sI5LVHJYQ" comment="" name="connection_commonPostgres_Server" prompt="connection_commonPostgres_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="pttgc-ipass-dev.cuaxh4kqthrc.ap-southeast-1.rds.amazonaws.com"/>
+  <contextParameter xmi:id="_wnDM9d6REe2Q1sI5LVHJYQ" comment="" name="connection_commonPostgres_Database" prompt="connection_commonPostgres_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_wnDM9t6REe2Q1sI5LVHJYQ" comment="" name="connection_commonPostgres_AdditionalParams" prompt="connection_commonPostgres_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_wnDM996REe2Q1sI5LVHJYQ" comment="" name="connection_commonPostgres_Login" prompt="connection_commonPostgres_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+</talendfile:ContextType>

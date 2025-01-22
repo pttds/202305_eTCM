@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_s5PYIfsREe2P_Pejgfw8OA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_s6CCUPsREe2P_Pejgfw8OA" comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCUfsREe2P_Pejgfw8OA" comment="Test task 01" name="zlog02_name_task" prompt="zlog02_name_task?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCUvsREe2P_Pejgfw8OA" comment="1" name="zlog03_sequence" prompt="zlog03_sequence?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_s6CCU_sREe2P_Pejgfw8OA" comment="1" name="zlog04_total" prompt="zlog04_total?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_s6CCVfsREe2P_Pejgfw8OA" comment="test" name="zlog05_type" prompt="zlog05_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCVvsREe2P_Pejgfw8OA" comment="test source" name="zlog06_source" prompt="zlog06_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCV_sREe2P_Pejgfw8OA" comment="test target" name="zlog07_target" prompt="zlog07_target?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_s6CCWvsREe2P_Pejgfw8OA" comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>
