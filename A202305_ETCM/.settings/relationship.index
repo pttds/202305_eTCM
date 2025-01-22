@@ -36,15 +36,11 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_OsoN8OV4Ee2glKlyYETBPw",
+    "id" : "_P2uPkNiiEe-zu_aegtPhaA",
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_kDq28McOEe24x5pI_u09sQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_wm4N0N6REe2Q1sI5LVHJYQ",
+    "id" : "_h2Q-UNiiEe-zu_aegtPhaA",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -68,7 +64,19 @@
     "version" : "Latest",
     "type" : "job"
   }, {
+    "id" : "_GTJXsDyXEeuTP5qDkF8ccQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "AwsSecretsManagerUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
     "id" : "Generatedvalue",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendAwsSecretsManagerHelper",
     "version" : "Latest",
     "type" : "routine"
   } ]
@@ -79,7 +87,7 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_wm4N0N6REe2Q1sI5LVHJYQ",
+    "id" : "_P2uPkNiiEe-zu_aegtPhaA",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -94,7 +102,7 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_wm4N0N6REe2Q1sI5LVHJYQ",
+    "id" : "_P2uPkNiiEe-zu_aegtPhaA",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -171,7 +179,7 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_wm4N0N6REe2Q1sI5LVHJYQ",
+    "id" : "_P2uPkNiiEe-zu_aegtPhaA",
     "version" : "Latest",
     "type" : "context"
   }, {

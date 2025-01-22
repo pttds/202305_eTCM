@@ -2,28 +2,28 @@
   "itemId" : "_kZ2isNONEe22FYYP9bg_Ng",
   "contextList" : [ {
     "contextName" : "Default",
-    "repoId" : "_wm4N0N6REe2Q1sI5LVHJYQ",
+    "repoId" : "_P2uPkNiiEe-zu_aegtPhaA",
     "parameterList" : [ {
       "id" : "_wnDM9t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_AdditionalParams"
+      "name" : "connection_commonPostgresArn_AdditionalParams"
     }, {
       "id" : "_wnDM9d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Database"
+      "name" : "connection_commonPostgresArn_Database"
     }, {
       "id" : "_wnDM996REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Login"
+      "name" : "connection_commonPostgresArn_Login"
     }, {
       "id" : "_wnDM8d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Password"
+      "name" : "connection_commonPostgresArn_Password"
     }, {
       "id" : "_wnDM8t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Port"
+      "name" : "connection_commonPostgresArn_Port"
     }, {
       "id" : "_wnDM896REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Schema"
+      "name" : "connection_commonPostgresArn_Schema"
     }, {
       "id" : "_wnDM9N6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Server"
+      "name" : "connection_commonPostgresArn_Server"
     } ]
   } ]
 }
