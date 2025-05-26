@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default">
+  <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="jobName" prompt="jobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="logId" prompt="logId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUe2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="taskLogId" prompt="taskLogId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUu2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="statusMessage" prompt="statusMessage?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWU-2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="target_cnt" prompt="target_cnt?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_9EeWVO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_YjdyUP61Ee2YB58xDasJVw"/>
-    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_H8pE0P7HEe22BoGe3NhLcw"/>
+    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\z0011210\AppData\Local\Temp\2" internalId="_H8pE0P7HEe22BoGe3NhLcw"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\\eTCM\\&quot;" internalId="_E2MbsABQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="sapPath" prompt="sapPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/interface/SFTP_DEV/eTCM/data/In/&quot;" internalId="_E2MbsQBQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="checkName_1" prompt="checkName_1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_PENH0ABQEe6sycfU68AaJw"/>
@@ -31,9 +31,9 @@
     <contextParameter comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Integer" value="22" internalId="_mnWcoCuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_username" prompt="connection_etcmSapSftp_username?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_String" value="&quot;dev_etcm&quot;" internalId="_mnWcoSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_host" prompt="connection_etcmWebserverFtps_host?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;10.36.132.29&quot;" internalId="_mnWcoiuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_password" prompt="connection_etcmWebserverFtps_password?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Password" value="enc:system.encryption.key.v1:VlBvAl8ZIm1WxOWKBOh65Pxd+Voy+foG31OUfkL5VRsUBF/d" internalId="_mnWcoyuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_passwordKeystore" prompt="connection_etcmWebserverFtps_passwordKeystore?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Password" value="enc:system.encryption.key.v1:FzuFiQbYO7ldW5a2lkaJDEuRZcWQXCP/KnfSDglyikMPkkyW" internalId="_mnWcpCuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_pathKeystore" prompt="connection_etcmWebserverFtps_pathKeystore?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="C:/Users/z0011158/workspace/myTrustStore.jks" internalId="_mnWcpSuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_password" prompt="connection_etcmWebserverFtps_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:xwpB8Thi0HYtRjUz9+n/HWneJSk/lFGWkEZmUf/p1aATLjaYlhQ=" internalId="_mnWcoyuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_passwordKeystore" prompt="connection_etcmWebserverFtps_passwordKeystore?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:3NHyt7WHonYfsYdB08BgxeA+i9OzNSX8topG9y+8IB44XAIH" internalId="_mnWcpCuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_pathKeystore" prompt="connection_etcmWebserverFtps_pathKeystore?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Users/z0011210/ETCM/myTrustStore2025.jks" internalId="_mnWcpSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_port" prompt="connection_etcmWebserverFtps_port?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Integer" value="21" internalId="_mnWcpiuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_username" prompt="connection_etcmWebserverFtps_username?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;FTPS&quot;" internalId="_mnWcpyuTEe6qlusNOxKBkA"/>
     <contextParameter comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWcqCuTEe6qlusNOxKBkA"/>
@@ -45,7 +45,7 @@
     <contextParameter comment="test target" name="zlog07_target" prompt="zlog07_target?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWcriuTEe6qlusNOxKBkA"/>
     <contextParameter comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWcryuTEe6qlusNOxKBkA"/>
   </context>
-  <context confirmationNeeded="false" name="dev">
+  <context confirmationNeeded="false" hide="false" name="dev">
     <contextParameter comment="" name="jobName" prompt="jobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="logId" prompt="logId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUe2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="taskLogId" prompt="taskLogId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUu2MEe2k-_mI1S9LTg"/>
@@ -76,9 +76,9 @@
     <contextParameter comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Integer" value="22" internalId="_mnWcwCuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_username" prompt="connection_etcmSapSftp_username?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_String" value="&quot;dev_etcm&quot;" internalId="_mnWcwSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_host" prompt="connection_etcmWebserverFtps_host?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;10.36.132.29&quot;" internalId="_mnWcwiuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_password" prompt="connection_etcmWebserverFtps_password?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Password" value="enc:system.encryption.key.v1:ppzMBZ56zEJWsT+ZbRqGt/Xscn6ZLhFO8aauQEW6SXpppOEP" internalId="_mnWcwyuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_passwordKeystore" prompt="connection_etcmWebserverFtps_passwordKeystore?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Password" value="enc:system.encryption.key.v1:KYaDtI80WE+aRheH0M65gVka+sGliVMpzW3mSphoeVejVOSlfqg=" internalId="_mnWcxCuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_pathKeystore" prompt="connection_etcmWebserverFtps_pathKeystore?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value=" /root/certs/eTCM_FTP.jks" internalId="_mnWcxSuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_password" prompt="connection_etcmWebserverFtps_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ppzMBZ56zEJWsT+ZbRqGt/Xscn6ZLhFO8aauQEW6SXpppOEP" internalId="_mnWcwyuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_passwordKeystore" prompt="connection_etcmWebserverFtps_passwordKeystore?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:KYaDtI80WE+aRheH0M65gVka+sGliVMpzW3mSphoeVejVOSlfqg=" internalId="_mnWcxCuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_pathKeystore" prompt="connection_etcmWebserverFtps_pathKeystore?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=" /root/certs/eTCM_FTP.jks" internalId="_mnWcxSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_port" prompt="connection_etcmWebserverFtps_port?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Integer" value="21" internalId="_mnWcxiuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_username" prompt="connection_etcmWebserverFtps_username?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;FTPS&quot;" internalId="_mnWcxyuTEe6qlusNOxKBkA"/>
     <contextParameter comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWcyCuTEe6qlusNOxKBkA"/>
@@ -90,7 +90,7 @@
     <contextParameter comment="test target" name="zlog07_target" prompt="zlog07_target?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWcziuTEe6qlusNOxKBkA"/>
     <contextParameter comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWczyuTEe6qlusNOxKBkA"/>
   </context>
-  <context confirmationNeeded="false" name="qa">
+  <context confirmationNeeded="false" hide="false" name="qa">
     <contextParameter comment="" name="jobName" prompt="jobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="logId" prompt="logId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUe2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="taskLogId" prompt="taskLogId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUu2MEe2k-_mI1S9LTg"/>
@@ -121,9 +121,9 @@
     <contextParameter comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Integer" value="22" internalId="_mnWc4CuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_username" prompt="connection_etcmSapSftp_username?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_String" value="&quot;dev_etcm&quot;" internalId="_mnWc4SuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_host" prompt="connection_etcmWebserverFtps_host?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;10.36.132.29&quot;" internalId="_mnWc4iuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_password" prompt="connection_etcmWebserverFtps_password?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Password" value="enc:system.encryption.key.v1:B5e3IQjfYEks3gg4pzHktoKscETJRJPXA9WVwXqzHPKHsRFA" internalId="_mnWc4yuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_passwordKeystore" prompt="connection_etcmWebserverFtps_passwordKeystore?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Password" value="enc:system.encryption.key.v1:ORQlUKQHHBu1FwpfwDHLqvknBvBGXao5hapEfEkHtxjiWyrz+OA=" internalId="_mnWc5CuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_pathKeystore" prompt="connection_etcmWebserverFtps_pathKeystore?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value=" /root/certs/eTCM_FTP.jks" internalId="_mnWc5SuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_password" prompt="connection_etcmWebserverFtps_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:B5e3IQjfYEks3gg4pzHktoKscETJRJPXA9WVwXqzHPKHsRFA" internalId="_mnWc4yuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_passwordKeystore" prompt="connection_etcmWebserverFtps_passwordKeystore?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ORQlUKQHHBu1FwpfwDHLqvknBvBGXao5hapEfEkHtxjiWyrz+OA=" internalId="_mnWc5CuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_pathKeystore" prompt="connection_etcmWebserverFtps_pathKeystore?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=" /root/certs/eTCM_FTP.jks" internalId="_mnWc5SuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_port" prompt="connection_etcmWebserverFtps_port?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Integer" value="21" internalId="_mnWc5iuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_username" prompt="connection_etcmWebserverFtps_username?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;FTPS&quot;" internalId="_mnWc5yuTEe6qlusNOxKBkA"/>
     <contextParameter comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWc6CuTEe6qlusNOxKBkA"/>
@@ -135,7 +135,7 @@
     <contextParameter comment="test target" name="zlog07_target" prompt="zlog07_target?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWc7iuTEe6qlusNOxKBkA"/>
     <contextParameter comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWc7yuTEe6qlusNOxKBkA"/>
   </context>
-  <context confirmationNeeded="false" name="prod">
+  <context confirmationNeeded="false" hide="false" name="prod">
     <contextParameter comment="" name="jobName" prompt="jobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="logId" prompt="logId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUe2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="taskLogId" prompt="taskLogId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWUu2MEe2k-_mI1S9LTg"/>
@@ -166,9 +166,9 @@
     <contextParameter comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Integer" value="22" internalId="_mnWdACuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_username" prompt="connection_etcmSapSftp_username?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_String" value="&quot;dev_etcm&quot;" internalId="_mnWdASuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_host" prompt="connection_etcmWebserverFtps_host?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;10.36.132.29&quot;" internalId="_mnWdAiuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_password" prompt="connection_etcmWebserverFtps_password?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Password" value="enc:system.encryption.key.v1:A1NV3/WZ/SG3n3ctqUqeT68UG95zzwQLFs6ZZSB03neoau6hO+4=" internalId="_mnWdAyuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_passwordKeystore" prompt="connection_etcmWebserverFtps_passwordKeystore?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Password" value="enc:system.encryption.key.v1:6eRv0hZTdPffsuagYh5iKHnQzzUoDZSO70TJUQ8uqT40Ml6Mivg=" internalId="_mnWdBCuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_etcmWebserverFtps_pathKeystore" prompt="connection_etcmWebserverFtps_pathKeystore?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value=" /root/certs/eTCM_FTP.jks" internalId="_mnWdBSuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_password" prompt="connection_etcmWebserverFtps_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:A1NV3/WZ/SG3n3ctqUqeT68UG95zzwQLFs6ZZSB03neoau6hO+4=" internalId="_mnWdAyuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_passwordKeystore" prompt="connection_etcmWebserverFtps_passwordKeystore?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:6eRv0hZTdPffsuagYh5iKHnQzzUoDZSO70TJUQ8uqT40Ml6Mivg=" internalId="_mnWdBCuTEe6qlusNOxKBkA"/>
+    <contextParameter comment="" name="connection_etcmWebserverFtps_pathKeystore" prompt="connection_etcmWebserverFtps_pathKeystore?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=" /root/certs/eTCM_FTP.jks" internalId="_mnWdBSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_port" prompt="connection_etcmWebserverFtps_port?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Integer" value="21" internalId="_mnWdBiuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_username" prompt="connection_etcmWebserverFtps_username?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;FTPS&quot;" internalId="_mnWdByuTEe6qlusNOxKBkA"/>
     <contextParameter comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWdCCuTEe6qlusNOxKBkA"/>
@@ -182,7 +182,7 @@
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="1" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="5" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
@@ -223,7 +223,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:kxS78f1dagnmkg2q0Nw5dHPOa6Gxm6vTo04YHqAc" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:HpsTVdV+SAga5o0ZQvRMp7EwwAS92SzDi5szEEZY" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -238,7 +238,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/z0010300/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/z0011210/ETCM/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -246,7 +246,7 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
     <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
@@ -258,7 +258,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:r0dxuXydusGAQB3WZ/J275ZCJRqFqKwU5tcX+u/C" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qckZKGkEOhdfqhPBLAZsJnJuWa9I0bAbMSA0+Sgr" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -277,34 +277,21 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter id="_fUeVwOvJEeyoAtTrAcL_YA" name="DQTechnical"/>
-    <routinesParameter id="_fTjIsOvJEeyoAtTrAcL_YA" name="DataMasking"/>
-    <routinesParameter id="_jJlrQOrOEeyEM_e3efIyMA" name="DataOperation"/>
-    <routinesParameter id="_fUNQAOvJEeyoAtTrAcL_YA" name="DataQualityDependencies"/>
-    <routinesParameter id="_fUEtIOvJEeyoAtTrAcL_YA" name="DataQuality"/>
-    <routinesParameter id="_fUVy4OvJEeyoAtTrAcL_YA" name="DqStringHandling"/>
-    <routinesParameter id="_jJlrSurOEeyEM_e3efIyMA" name="Mathematical"/>
-    <routinesParameter id="_jJvcNurOEeyEM_e3efIyMA" name="Numeric"/>
-    <routinesParameter id="_jJvcQOrOEeyEM_e3efIyMA" name="Relational"/>
-    <routinesParameter id="_jJlrNurOEeyEM_e3efIyMA" name="SQLike"/>
-    <routinesParameter id="_jJvcSurOEeyEM_e3efIyMA" name="StringHandling"/>
-    <routinesParameter id="_jJ5NMOrOEeyEM_e3efIyMA" name="TalendDataGenerator"/>
-    <routinesParameter id="_jJ5NOurOEeyEM_e3efIyMA" name="TalendDate"/>
-    <routinesParameter id="_jJ5NTurOEeyEM_e3efIyMA" name="TalendStringUtil"/>
-    <routinesParameter id="_jJ5NROrOEeyEM_e3efIyMA" name="TalendString"/>
     <routinesParameter id="_gs7S8NKmEe2mIZQEAY2Khg" name="Generatedvalue"/>
   </parameters>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="32">
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFTPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="32">
+  <node componentName="tFTPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPConnection_1" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.connection_etcmSapSftp_host"/>
     <elementParameter field="TEXT" name="PORT" value="context.connection_etcmSapSftp_port"/>
     <elementParameter field="TEXT" name="FTPS_PORT" value="22" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGON_TYPE" value="PASSWORD" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_etcmSapSftp_username"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jyYDMabWM8IqNvyoWyTSkiFbL/RPonG1+flNAAOuFhYnvI45rOQt4E2sVhalQc5WC9toCW6RtUqIxTXZjLKlBDqfiA=="/>
+    <elementParameter field="TEXT" name="ACCOUNT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="SFTP" value="true"/>
     <elementParameter field="CHECK" name="FTPS" value="false" show="false"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" value="&quot;&quot;" show="false"/>
@@ -331,13 +318,15 @@
     <elementParameter field="TABLE" name="CLIENT_PARAMETERS" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFTPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="32">
+  <node componentName="tFTPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPConnection_2" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.connection_etcmWebserverFtps_host"/>
     <elementParameter field="TEXT" name="PORT" value="context.connection_etcmWebserverFtps_port" show="false"/>
     <elementParameter field="TEXT" name="FTPS_PORT" value="21"/>
+    <elementParameter field="CLOSED_LIST" name="LOGON_TYPE" value="PASSWORD"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_etcmWebserverFtps_username"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gIP8oAp4XhBIGr81MQhvkhGKVlRPhnWk068vNjpcVUPwwe87AOhj8LSwT7W5yhkAX4TZitCjdl5nbKRzXFjIF73vpAkVQ1b/EA=="/>
+    <elementParameter field="TEXT" name="ACCOUNT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="SFTP" value="false" show="false"/>
     <elementParameter field="CHECK" name="FTPS" value="true"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" value="context.connection_etcmWebserverFtps_pathKeystore"/>
@@ -364,14 +353,14 @@
     <elementParameter field="TABLE" name="CLIENT_PARAMETERS" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1664" posY="320">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2080" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_5" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(((Integer)globalMap.get(&quot;tLogRow_3_NB_LINE&quot;)));&#xA;System.out.println(((Integer)globalMap.get(&quot;tJavaRow_3_NB_LINE&quot;)));&#xA;System.out.println(((Integer)globalMap.get(&quot;tLogRow_1_NB_LINE&quot;)));&#xA;&#xA;System.out.println(context.checkName_1);&#xA;System.out.println(&quot;name of file transfer fail&quot;);&#xA;System.out.println(context.checkName_2);&#xA;context.target_cnt = ((Integer)globalMap.get(&quot;tLogRow_3_NB_LINE&quot;));&#xA;if(((Integer)globalMap.get(&quot;tLogRow_3_NB_LINE&quot;)) >= ((Integer)globalMap.get(&quot;tJavaRow_3_NB_LINE&quot;)))&#xA;{&#xA;&#x9;System.out.println(true);&#xA;}&#xA;else&#xA;{&#xA;&#x9;if(context.statusMessage != &quot;&quot;)&#xA;&#x9;{&#xA;&#x9;&#x9;context.statusMessage = context.statusMessage+&quot;\n&quot;+&quot;Transfer file fail and name of file transfer fail is &quot;+context.checkName_2;&#xA;&#x9;}&#xA;&#x9;else&#xA;&#x9;{&#x9;&#xA;&#x9;&#x9;context.statusMessage = &quot;Transfer file fail and name of file transfer fail is &quot;+context.checkName_2;&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;System.out.println(false);&#xA;}&#xA;System.out.println(context.statusMessage);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_5"/>
   </node>
-  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="320">
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1000" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.currentPath"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
@@ -380,7 +369,7 @@
     <elementParameter field="CHECK" name="ERROR" value="true"/>
     <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="&quot;*.csv&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;*.csv&quot;" id="0"/>
     </elementParameter>
     <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
     <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
@@ -393,18 +382,18 @@
     <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tIterateToFlow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="320">
+  <node componentName="tIterateToFlow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1200" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tIterateToFlow_2" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="nameFileLocal"/>
-      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="nameFileLocal" id="0"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;))" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tIterateToFlow_2">
       <column comment="" key="false" length="-1" name="nameFileLocal" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="320">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1360" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_3" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xA;output_row.nameFileLocal = input_row.nameFileLocal;&#xD;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -413,7 +402,7 @@
       <column comment="" key="false" length="-1" name="nameFileLocal" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="320">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -450,7 +439,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="512">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -464,8 +453,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="nameFileServer"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="nameFileServer" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -474,15 +463,17 @@
       <column comment="" key="false" length="-1" name="nameFileServer" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFTPFileList" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="800" posY="512">
+  <node componentName="tFTPFileList" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="1000" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPFileList_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_2"/>
     <elementParameter field="TEXT" name="HOST" value="context.connection_etcmSapSftp_host" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="context.connection_etcmSapSftp_port" show="false"/>
     <elementParameter field="TEXT" name="FTPS_PORT" value="990" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGON_TYPE" value="PASSWORD" show="false"/>
     <elementParameter field="TEXT" name="USERNAME" value="context.connection_etcmSapSftp_username" show="false"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:fFj+f2vvLdGXHIpiEPGg3h56PpCoVYeK40e0h+roYCM0iD+2qCE/OLsVnyRz9tRY2ZZiWdoY5Cy9Uh52rN4LGcmjkA==" show="false"/>
+    <elementParameter field="TEXT" name="ACCOUNT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="SFTP" value="false" show="false"/>
     <elementParameter field="CHECK" name="FTPS" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD" show="false"/>
@@ -494,7 +485,7 @@
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true"/>
     <elementParameter field="CHECK" name="DIR_FULL" value="false"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="&quot;*.csv&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;*.csv&quot;" id="0"/>
     </elementParameter>
     <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" value="PASSIVE" show="false"/>
     <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" value="IMPLICIT" show="false"/>
@@ -516,18 +507,18 @@
     <elementParameter field="TABLE" name="CLIENT_PARAMETERS" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tIterateToFlow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="512">
+  <node componentName="tIterateToFlow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1160" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tIterateToFlow_1" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="nameFileServer"/>
-      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFTPFileList_1_CURRENT_FILE&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="nameFileServer" id="0"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFTPFileList_1_CURRENT_FILE&quot;))" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tIterateToFlow_1">
       <column comment="" key="false" length="-1" name="nameFileServer" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="512">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1360" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.nameFileServer = input_row.nameFileServer;&#xD;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -536,7 +527,7 @@
       <column comment="" key="false" length="-1" name="nameFileServer" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1408" posY="320">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1760" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_4" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.collabFile = input_row.collabFile;&#xA;context.checkName_1 = context.checkName_1+&quot; &quot;+input_row.collabFile;&#xD;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -545,7 +536,7 @@
       <column comment="" key="false" length="-1" name="collabFile" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1504" posY="320">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1880" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_3" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -559,8 +550,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="collabFile"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="collabFile" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -569,7 +560,7 @@
       <column comment="" key="false" length="-1" name="collabFile" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1408" posY="448">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1760" posY="560">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_5" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.nameFileLocal = input_row.nameFileLocal;&#xD;&#xA;context.checkName_2 = context.checkName_2.equals(&quot;&quot;)?input_row.nameFileLocal : context.checkName_2+&quot;,&quot;+ input_row.nameFileLocal;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -578,7 +569,7 @@
       <column comment="" key="false" length="-1" name="nameFileLocal" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1504" posY="448">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1880" posY="560">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_4" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -592,8 +583,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="nameFileLocal"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="nameFileLocal" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -602,18 +593,18 @@
       <column comment="" key="false" length="-1" name="nameFileLocal" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="640">
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="32">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="context.jobName = jobName;&#xA;context.logId = Generatedvalue.getUUID();&#xA;context.taskLogId = Generatedvalue.getUUID();"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="32">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -626,14 +617,14 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="log_id"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.logId"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="task_log_id"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.taskLogId"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="job_name"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.jobName"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="status_message"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.statusMessage"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="log_id" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.logId" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="task_log_id" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.taskLogId" id="3"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="job_name" id="4"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.jobName" id="5"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="status_message" id="6"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.statusMessage" id="7"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -645,12 +636,13 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <metadata connector="FLOW" name="tRunJob_1"/>
   </node>
-  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="160">
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
     <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
     <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
@@ -672,7 +664,7 @@
       <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="160">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1080" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_2" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.moment = input_row.moment;&#xD;&#xA;output_row.pid = input_row.pid;&#xD;&#xA;output_row.root_pid = input_row.root_pid;&#xD;&#xA;output_row.father_pid = input_row.father_pid;&#xD;&#xA;output_row.project = input_row.project;&#xD;&#xA;output_row.job = input_row.job;&#xD;&#xA;output_row.context = input_row.context;&#xD;&#xA;output_row.priority = input_row.priority;&#xD;&#xA;output_row.type = input_row.type;&#xD;&#xA;output_row.origin = input_row.origin;&#xD;&#xA;output_row.message = input_row.message;&#xD;&#xA;output_row.code = input_row.code;&#xD;&#xA;context.statusMessage = input_row.message;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -692,7 +684,7 @@
       <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="992" posY="160">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1240" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -706,30 +698,30 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="moment"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="pid"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="root_pid"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="father_pid"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="project"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="job"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="context"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="priority"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="type"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="origin"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="code"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="moment" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="pid" id="2"/>
+      <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="root_pid" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="father_pid" id="6"/>
+      <elementValue elementRef="LENGTH" value="10" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project" id="8"/>
+      <elementValue elementRef="LENGTH" value="10" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="job" id="10"/>
+      <elementValue elementRef="LENGTH" value="10" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="context" id="12"/>
+      <elementValue elementRef="LENGTH" value="10" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="priority" id="14"/>
+      <elementValue elementRef="LENGTH" value="10" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="type" id="16"/>
+      <elementValue elementRef="LENGTH" value="10" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="origin" id="18"/>
+      <elementValue elementRef="LENGTH" value="10" id="19"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="message" id="20"/>
+      <elementValue elementRef="LENGTH" value="10" id="21"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="code" id="22"/>
+      <elementValue elementRef="LENGTH" value="10" id="23"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -749,7 +741,7 @@
       <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="640">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="200" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -762,16 +754,16 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="log_id"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.logId"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="task_log_id"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.taskLogId"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="job_name"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.jobName"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="status_message"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.statusMessage"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="target_cnt"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.target_cnt"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="log_id" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.logId" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="task_log_id" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.taskLogId" id="3"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="job_name" id="4"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.jobName" id="5"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="status_message" id="6"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.statusMessage" id="7"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="target_cnt" id="8"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.target_cnt" id="9"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -783,12 +775,13 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <metadata connector="FLOW" name="tRunJob_2"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="640">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -801,10 +794,10 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="log_id"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.logId"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="job_name"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.jobName"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="log_id" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.logId" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="job_name" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.jobName" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -816,20 +809,23 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <metadata connector="FLOW" name="tRunJob_3"/>
   </node>
-  <node componentName="tFTPFileList" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="32" posY="160">
+  <node componentName="tFTPFileList" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="40" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPFileList_2" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
     <elementParameter field="TEXT" name="HOST" value="context.connection_etcmSapSftp_host" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="context.connection_etcmSapSftp_port" show="false"/>
     <elementParameter field="TEXT" name="FTPS_PORT" value="990" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGON_TYPE" value="PASSWORD" show="false"/>
     <elementParameter field="TEXT" name="USERNAME" value="context.connection_etcmSapSftp_username" show="false"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:CQyDuFftm0j3qm9vE8tUdV0sCY942jnNXiS9TeuPiNPNgEtpkp89c4cpGu3PHaLGb57YGBvDBHKty0kTWIdMbZdguA==" show="false"/>
+    <elementParameter field="TEXT" name="ACCOUNT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="SFTP" value="false" show="false"/>
     <elementParameter field="CHECK" name="FTPS" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD" show="false"/>
@@ -841,7 +837,7 @@
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true" show="false"/>
     <elementParameter field="CHECK" name="DIR_FULL" value="false"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="&quot;*.csv&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;*.csv&quot;" id="0"/>
     </elementParameter>
     <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" value="PASSIVE" show="false"/>
     <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" value="IMPLICIT" show="false"/>
@@ -863,7 +859,7 @@
     <elementParameter field="TABLE" name="CLIENT_PARAMETERS" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tCreateTemporaryFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="256">
+  <node componentName="tCreateTemporaryFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTemporaryFile_1" show="false"/>
     <elementParameter field="CHECK" name="REMOVE" value="true"/>
     <elementParameter field="CHECK" name="USE_DEFAULT_DIR" value="true"/>
@@ -875,22 +871,24 @@
     <elementParameter field="TEXT" name="SUFFIX" value="&quot;csv&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="256">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="40" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_6" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Path name&quot;);&#xA;System.out.println(((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;)));&#xA;System.out.println(((String)globalMap.get(&quot;tFTPFileList_2_CURRENT_FILE&quot;)));&#xA;context.fileName = ((String)globalMap.get(&quot;tFTPFileList_2_CURRENT_FILE&quot;));"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_6"/>
   </node>
-  <node componentName="tFTPGet" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="352">
+  <node componentName="tFTPGet" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="40" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPGet_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="21" show="false"/>
     <elementParameter field="TEXT" name="FTPS_PORT" value="990" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGON_TYPE" value="PASSWORD" show="false"/>
     <elementParameter field="TEXT" name="USERNAME" value="&quot;anonymous&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:GJv3mMsYhy+rso/vJzT53GyDsj+69Cn2LbKpY/FAkquY6P2tgzOB" show="false"/>
+    <elementParameter field="TEXT" name="ACCOUNT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="SFTP" value="false" show="false"/>
     <elementParameter field="CHECK" name="FTPS" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD" show="false"/>
@@ -907,7 +905,7 @@
     <elementParameter field="CLOSED_LIST" name="SFTPOVERWRITE" value="overwrite"/>
     <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="context.fileName"/>
+      <elementValue elementRef="FILEMASK" value="context.fileName" id="0"/>
     </elementParameter>
     <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" value="PASSIVE" show="false"/>
     <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" value="IMPLICIT" show="false"/>
@@ -932,25 +930,25 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFTPGet_1"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="352">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(((String)globalMap.get(&quot;tFTPGet_1_CURRENT_STATUS&quot;)));"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_4"/>
   </node>
-  <node componentName="tIterateToFlow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="352">
+  <node componentName="tIterateToFlow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tIterateToFlow_3" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="statusFile"/>
-      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFTPGet_1_CURRENT_STATUS&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="statusFile" id="0"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFTPGet_1_CURRENT_STATUS&quot;))" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tIterateToFlow_3">
       <column comment="" key="false" length="-1" name="statusFile" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="352">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_5" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -964,8 +962,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="statusFile"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="statusFile" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -974,15 +972,17 @@
       <column comment="" key="false" length="-1" name="statusFile" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFTPPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="352">
+  <node componentName="tFTPPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="720" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPPut_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_2"/>
     <elementParameter field="TEXT" name="HOST" value="context.connection_etcmWebserverFtps_host" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="21" show="false"/>
     <elementParameter field="TEXT" name="FTPS_PORT" value="context.connection_etcmSapSftp_port" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGON_TYPE" value="PASSWORD" show="false"/>
     <elementParameter field="TEXT" name="USERNAME" value="context.connection_etcmWebserverFtps_username" show="false"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:C/gqUleDL1qu+uaYHV3N1voO8VVqH0SXGOwopN0S3BKwChusFEoxFMi583800v0uLjrlh/eNAjSdGOXxNf4QJTSfkQAm0Evl0g==" show="false"/>
+    <elementParameter field="TEXT" name="ACCOUNT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="SFTP" value="false" show="false"/>
     <elementParameter field="CHECK" name="FTPS" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD" show="false"/>
@@ -1001,8 +1001,8 @@
     <elementParameter field="CLOSED_LIST" name="FTPSOVERWRITE" value="always"/>
     <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="&quot;*.csv&quot;"/>
-      <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;*.csv&quot;" id="0"/>
+      <elementValue elementRef="NEWNAME" value="&quot;&quot;" id="1"/>
     </elementParameter>
     <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" value="PASSIVE" show="false"/>
     <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" value="IMPLICIT" show="false"/>
@@ -1021,34 +1021,35 @@
     <elementParameter field="CHECK" name="REMOTE_VERIFICATION" value="true" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="0" show="false"/>
     <elementParameter field="CHECK" name="USE_STRICT_REPLY_PARSING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="RENAME_AFTER" value="false"/>
     <elementParameter field="CHECK" name="CONFIG_CLIENT" value="false" show="false"/>
     <elementParameter field="TABLE" name="CLIENT_PARAMETERS" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFTPPut_1"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="352">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_7" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(((Boolean)globalMap.get(&quot;tFTPPut_1_CURRENT_FILE_EXISTS&quot;)));"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_7"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="352">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Name of current path&quot;);&#xA;System.out.println(globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().lastIndexOf('/'));&#xA;System.out.println(globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString());&#xA;System.out.println(globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().substring(0,globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().lastIndexOf('/')));&#xA;context.currentPath = globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().substring(0,globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().lastIndexOf('/'));"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Name of local path and file&quot;);&#xA;//System.out.println(globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().lastIndexOf('/'));&#xA;System.out.println(globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString());&#xA;//System.out.println(globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().substring(0,globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().lastIndexOf('/')));&#xA;//context.currentPath = globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().substring(0,globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().lastIndexOf('/'));&#xA;&#xA;System.out.println(&quot;Name of current path&quot;);&#xA;System.out.println(context.currentPath);&#xA;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_3">
       <column comment="" key="false" length="-1" name="statusFile" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="480">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
-      <elementValue elementRef="SCHEMA_COLUMN" value="path"/>
-      <elementValue elementRef="VALUE" value="globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().lastIndexOf('/')"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="path" id="0"/>
+      <elementValue elementRef="VALUE" value="globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;).toString().lastIndexOf('/')" id="1"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -1061,7 +1062,7 @@
       <column comment="" key="false" length="-1" name="path" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="480">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_6" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -1075,8 +1076,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="path"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="path" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -1085,7 +1086,7 @@
       <column comment="" key="false" length="-1" name="path" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="32">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -1098,24 +1099,24 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="status"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;running&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_plan"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog01_name_plan"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_task"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog02_name_task"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="sequence"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog03_sequence"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="total"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog04_total"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="type"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog05_type"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="source"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog06_source"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="target"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog07_target"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="remark"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog08_remark"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="status" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;running&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_plan" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog01_name_plan" id="3"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_task" id="4"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog02_name_task" id="5"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="sequence" id="6"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog03_sequence" id="7"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="total" id="8"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog04_total" id="9"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="type" id="10"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog05_type" id="11"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="source" id="12"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog06_source" id="13"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="target" id="14"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog07_target" id="15"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="remark" id="16"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog08_remark" id="17"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -1127,12 +1128,13 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="job_log_start"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <metadata connector="FLOW" name="tRunJob_4"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="128">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -1145,24 +1147,24 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="status"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;done&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_plan"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog01_name_plan"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_task"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog02_name_task"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="sequence"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog03_sequence"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="total"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog04_total"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="type"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog05_type"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="source"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog06_source"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="target"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog07_target"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="remark"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog08_remark"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="status" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;done&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_plan" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog01_name_plan" id="3"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_task" id="4"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog02_name_task" id="5"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="sequence" id="6"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog03_sequence" id="7"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="total" id="8"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog04_total" id="9"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="type" id="10"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog05_type" id="11"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="source" id="12"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog06_source" id="13"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="target" id="14"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog07_target" id="15"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="remark" id="16"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog08_remark" id="17"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -1174,12 +1176,13 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="job_log_done"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <metadata connector="FLOW" name="tRunJob_5"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="224">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -1192,24 +1195,24 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="status"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;fail&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_plan"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog01_name_plan"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_task"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog02_name_task"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="sequence"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog03_sequence"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="total"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog04_total"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="type"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog05_type"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="source"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog06_source"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="target"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog07_target"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="remark"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog08_remark"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="status" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;fail&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_plan" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog01_name_plan" id="3"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="name_task" id="4"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog02_name_task" id="5"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="sequence" id="6"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog03_sequence" id="7"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="total" id="8"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog04_total" id="9"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="type" id="10"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog05_type" id="11"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="source" id="12"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog06_source" id="13"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="target" id="14"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog07_target" id="15"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="remark" id="16"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.zlog08_remark" id="17"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -1221,9 +1224,10 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="job_log_fail"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
     <metadata connector="FLOW" name="tRunJob_6"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tFTPConnection_1">
@@ -1250,9 +1254,9 @@
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tJavaRow_4">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="nameFileServer"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="nameFileServer" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
@@ -1272,9 +1276,9 @@
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tIterateToFlow_1" offsetLabelX="0" offsetLabelY="0" source="tIterateToFlow_1" target="tJavaRow_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="nameFileServer"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="nameFileServer" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
@@ -1309,42 +1313,42 @@
   </connection>
   <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tJavaRow_2" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_2" target="tLogRow_2">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="code"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="father_pid"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="origin"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="context"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="project"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="pid"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="job"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="priority"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="type"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="message"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="root_pid"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="moment"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="code" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="father_pid" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
+      <elementValue elementRef="TRACE_COLUMN" value="origin" id="6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="7"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="8"/>
+      <elementValue elementRef="TRACE_COLUMN" value="context" id="9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="10"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="11"/>
+      <elementValue elementRef="TRACE_COLUMN" value="project" id="12"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="13"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="14"/>
+      <elementValue elementRef="TRACE_COLUMN" value="pid" id="15"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="16"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="17"/>
+      <elementValue elementRef="TRACE_COLUMN" value="job" id="18"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="19"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="20"/>
+      <elementValue elementRef="TRACE_COLUMN" value="priority" id="21"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="22"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="23"/>
+      <elementValue elementRef="TRACE_COLUMN" value="type" id="24"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="25"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="26"/>
+      <elementValue elementRef="TRACE_COLUMN" value="message" id="27"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="28"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="29"/>
+      <elementValue elementRef="TRACE_COLUMN" value="root_pid" id="30"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="31"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="32"/>
+      <elementValue elementRef="TRACE_COLUMN" value="moment" id="33"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="34"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="35"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
@@ -1411,93 +1415,93 @@
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPConnection_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPConnection_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_5" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPFileList_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPPut_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
 </talendfile:ProcessType>

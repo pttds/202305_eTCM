@@ -4,4 +4,18 @@
     <migrationTask xmi:id="_6KB9oNh1Ee-hHvhfT0CaSg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_6JE7Yth1Ee-hHvhfT0CaSg" login="zvarut.v@pttgcgroup.com" firstName="Varut" lastName="Wiseschinda" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeUDIHEfCCoddwvO8q0Q" login="guypetch.s@pttgcgroup.com" firstName="Guypetch" lastName="Singsuwan" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeUTIHEfCCoddwvO8q0Q" login="tirawuth.y@pttgcgroup.com" firstName="Tirawuth" lastName="Yamsri" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeUjIHEfCCoddwvO8q0Q" login="zpitsamorn.in@pttgcgroup.com" firstName="Pitsamorn" lastName="Ingkavara" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeUzIHEfCCoddwvO8q0Q" login="datagovernance@pttgcgroup.com" firstName="Data" lastName="Governance" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeVDIHEfCCoddwvO8q0Q" login="zpanudeth.s@pttgcgroup.com" firstName="Panudeth" lastName="Sirimanuwat" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeVTIHEfCCoddwvO8q0Q" login="zmaratree.s@pttgcgroup.com" firstName="Maratree" lastName="Supasing" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeVjIHEfCCoddwvO8q0Q" login="zratree.p@pttgcgroup.com" firstName="Ratree" lastName="Pasorlee" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeVzIHEfCCoddwvO8q0Q" login="zwarakorn.u@pttgcgroup.com" firstName="Warakorn" lastName="Upamai" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeWDIHEfCCoddwvO8q0Q" login="zsaharat.r@pttgcgroup.com" firstName="Saharat" lastName="Rueangsin" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeWTIHEfCCoddwvO8q0Q" login="ztraiphop.l@pttgcgroup.com" firstName="Traiphop" lastName="Lertthanasaengthum" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeWjIHEfCCoddwvO8q0Q" login="dataplatformoperationsupport@pttgcgroup.com" firstName="Platform" lastName="Support" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeWzIHEfCCoddwvO8q0Q" login="zchatchawan.s@pttgcgroup.com" firstName="Chatchawan" lastName="Saenghong" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeXDIHEfCCoddwvO8q0Q" login="znontakon.k@pttgcgroup.com" firstName="Nontakon" lastName="Kerdmongkol" type="DQ"/>
+  <TalendProperties:User xmi:id="__kkeXTIHEfCCoddwvO8q0Q" login="saitarn.d@pttgcgroup.com" firstName="Saitarn" lastName="Dokchan" type="DQ"/>
 </xmi:XMI>

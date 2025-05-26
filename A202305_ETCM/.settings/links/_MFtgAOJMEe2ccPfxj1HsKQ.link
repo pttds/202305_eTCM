@@ -73,15 +73,6 @@
       "id" : "_HDsg4eidEe2gVcx8wsHAYw",
       "name" : "connection_etcmWebserverFtps_host"
     }, {
-      "id" : "_HDsg5OidEe2gVcx8wsHAYw",
-      "name" : "connection_etcmWebserverFtps_password"
-    }, {
-      "id" : "_fhEKUAXLEe63WK9wte0asA",
-      "name" : "connection_etcmWebserverFtps_passwordKeystore"
-    }, {
-      "id" : "_2Za-8AXHEe63WK9wte0asA",
-      "name" : "connection_etcmWebserverFtps_pathKeystore"
-    }, {
       "id" : "_HDsg4uidEe2gVcx8wsHAYw",
       "name" : "connection_etcmWebserverFtps_port"
     }, {
@@ -188,15 +179,6 @@
     "parameterList" : [ {
       "id" : "_dA4coe1NEe2k-_mI1S9LTg",
       "name" : "connection_etcmWebserverFtps_host"
-    }, {
-      "id" : "_dA4cpO1NEe2k-_mI1S9LTg",
-      "name" : "connection_etcmWebserverFtps_password"
-    }, {
-      "id" : "_fhEKUQXLEe63WK9wte0asA",
-      "name" : "connection_etcmWebserverFtps_passwordKeystore"
-    }, {
-      "id" : "_2Za-8QXHEe63WK9wte0asA",
-      "name" : "connection_etcmWebserverFtps_pathKeystore"
     }, {
       "id" : "_dA4cou1NEe2k-_mI1S9LTg",
       "name" : "connection_etcmWebserverFtps_port"
@@ -305,15 +287,6 @@
       "id" : "_dA4cp-1NEe2k-_mI1S9LTg",
       "name" : "connection_etcmWebserverFtps_host"
     }, {
-      "id" : "_dA4cqu1NEe2k-_mI1S9LTg",
-      "name" : "connection_etcmWebserverFtps_password"
-    }, {
-      "id" : "_fhEKUgXLEe63WK9wte0asA",
-      "name" : "connection_etcmWebserverFtps_passwordKeystore"
-    }, {
-      "id" : "_2Za-8gXHEe63WK9wte0asA",
-      "name" : "connection_etcmWebserverFtps_pathKeystore"
-    }, {
       "id" : "_dA4cqO1NEe2k-_mI1S9LTg",
       "name" : "connection_etcmWebserverFtps_port"
     }, {
@@ -420,15 +393,6 @@
     "parameterList" : [ {
       "id" : "_dA4cre1NEe2k-_mI1S9LTg",
       "name" : "connection_etcmWebserverFtps_host"
-    }, {
-      "id" : "_dA4csO1NEe2k-_mI1S9LTg",
-      "name" : "connection_etcmWebserverFtps_password"
-    }, {
-      "id" : "_fhEKUwXLEe63WK9wte0asA",
-      "name" : "connection_etcmWebserverFtps_passwordKeystore"
-    }, {
-      "id" : "_2Za-8wXHEe63WK9wte0asA",
-      "name" : "connection_etcmWebserverFtps_pathKeystore"
     }, {
       "id" : "_dA4cru1NEe2k-_mI1S9LTg",
       "name" : "connection_etcmWebserverFtps_port"
