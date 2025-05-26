@@ -7,7 +7,7 @@
     <contextParameter comment="" name="statusMessage" prompt="statusMessage?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWU-2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="target_cnt" prompt="target_cnt?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_9EeWVO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_YjdyUP61Ee2YB58xDasJVw"/>
-    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\z0011210\AppData\Local\Temp\2" internalId="_H8pE0P7HEe22BoGe3NhLcw"/>
+    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/z0011210/Documents/etcm/" internalId="_H8pE0P7HEe22BoGe3NhLcw"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\\eTCM\\&quot;" internalId="_E2MbsABQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="sapPath" prompt="sapPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/interface/SFTP_DEV/eTCM/data/In/&quot;" internalId="_E2MbsQBQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="checkName_1" prompt="checkName_1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_PENH0ABQEe6sycfU68AaJw"/>
@@ -45,7 +45,7 @@
     <contextParameter comment="" name="statusMessage" prompt="statusMessage?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWU-2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="target_cnt" prompt="target_cnt?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_9EeWVO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_YjdyUf61Ee2YB58xDasJVw"/>
-    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_H8pE0f7HEe22BoGe3NhLcw"/>
+    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="" internalId="_H8pE0f7HEe22BoGe3NhLcw"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\\eTCM\\&quot;" internalId="_E2bsSABQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="sapPath" prompt="sapPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/interface/SFTP_DEV/eTCM/data/In/&quot;" internalId="_E2bsSQBQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="checkName_1" prompt="checkName_1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_PENH0QBQEe6sycfU68AaJw"/>
@@ -83,7 +83,7 @@
     <contextParameter comment="" name="statusMessage" prompt="statusMessage?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWU-2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="target_cnt" prompt="target_cnt?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_9EeWVO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_YjdyUv61Ee2YB58xDasJVw"/>
-    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_H8pE0v7HEe22BoGe3NhLcw"/>
+    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="" internalId="_H8pE0v7HEe22BoGe3NhLcw"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;" internalId="_E2bsUgBQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="sapPath" prompt="sapPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/interface/SFTP_DEV/eTCM/data/In/&quot;" internalId="_E2bsUwBQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="checkName_1" prompt="checkName_1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_PENH0gBQEe6sycfU68AaJw"/>
@@ -121,7 +121,7 @@
     <contextParameter comment="" name="statusMessage" prompt="statusMessage?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9EeWU-2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="target_cnt" prompt="target_cnt?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_9EeWVO2MEe2k-_mI1S9LTg"/>
     <contextParameter comment="" name="fileName" prompt="fileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_YjdyU_61Ee2YB58xDasJVw"/>
-    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_H8pE0_7HEe22BoGe3NhLcw"/>
+    <contextParameter comment="" name="currentPath" prompt="currentPath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="" internalId="_H8pE0_7HEe22BoGe3NhLcw"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;" internalId="_E2bsXABQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="sapPath" prompt="sapPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/interface/SFTP_DEV/eTCM/data/In/&quot;" internalId="_E2bsXQBQEe6sycfU68AaJw"/>
     <contextParameter comment="" name="checkName_1" prompt="checkName_1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_PENH0wBQEe6sycfU68AaJw"/>
@@ -153,6 +153,7 @@
     <contextParameter comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mnWdDyuTEe6qlusNOxKBkA"/>
   </context>
   <parameters>
+    <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="5" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -834,11 +835,11 @@
     <elementParameter field="TABLE" name="CLIENT_PARAMETERS" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tCreateTemporaryFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="320">
+  <node componentName="tCreateTemporaryFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTemporaryFile_1" show="false"/>
     <elementParameter field="CHECK" name="REMOVE" value="true"/>
-    <elementParameter field="CHECK" name="USE_DEFAULT_DIR" value="true"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.localPathDownload" show="false"/>
+    <elementParameter field="CHECK" name="USE_DEFAULT_DIR" value="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.currentPath"/>
     <elementParameter field="CHECK" name="USE_PREFIX" value="false"/>
     <elementParameter field="LABEL" name="INFO_RANGE" value="The temporary file name should include template &quot;XXXX&quot;. Template is deprecated. Use Prefix instead."/>
     <elementParameter field="TEXT" name="TEMPLATE" value="((String)globalMap.get(&quot;tFTPFileList_2_CURRENT_FILE&quot;)).replace(&quot;.csv&quot;,&quot;&quot;)"/>
@@ -1348,13 +1349,13 @@
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate8" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFTPFileList_2" target="tRunJob_5">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
-  </connection>
   <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tFTPFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFTPFileList_2" target="tRunJob_6">
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFTPFileList_2" target="tRunJob_5">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tJava_6" offsetLabelX="0" offsetLabelY="0" source="tJava_6" target="tFTPGet_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
