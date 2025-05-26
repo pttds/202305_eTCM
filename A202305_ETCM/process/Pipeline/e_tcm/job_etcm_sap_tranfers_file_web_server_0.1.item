@@ -19,13 +19,6 @@
     <contextParameter comment="" name="connection_commonPostgres_Port" prompt="connection_commonPostgres_Port?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="5432" internalId="_mnWclCuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_commonPostgres_Schema" prompt="connection_commonPostgres_Schema?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="customeranalytics" internalId="_mnWclSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_commonPostgres_Server" prompt="connection_commonPostgres_Server?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="pttgc-ipass-dev.cuaxh4kqthrc.ap-southeast-1.rds.amazonaws.com" internalId="_mnWcliuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_AdditionalParams" prompt="connection_commonRedshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_mnWclyuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Database" prompt="connection_commonRedshift_Database?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="dev" internalId="_mnWcmCuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Login" prompt="connection_commonRedshift_Login?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="talend_batch" internalId="_mnWcmSuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Password" prompt="connection_commonRedshift_Password?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_Password" value="enc:system.encryption.key.v1:/+DYrLRrUg/AqBqzK3iIYyJnjls5c8Iz5bLJaaILLtuxJsLoNnH6EA9Av9w=" internalId="_mnWcmiuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Port" prompt="connection_commonRedshift_Port?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="5439" internalId="_mnWcmyuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Schema" prompt="connection_commonRedshift_Schema?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_mnWcnCuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Server" prompt="connection_commonRedshift_Server?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com" internalId="_mnWcnSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_host" prompt="connection_etcmSapSftp_host?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_String" value="&quot;10.36.128.27&quot;" internalId="_mnWcniuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_password" prompt="connection_etcmSapSftp_password?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Password" value="enc:system.encryption.key.v1:bjDwF6ja/svIM3IRmY3ALzrWHlD0R7WSsb/c8e6Ku/YCL7l+erA=" internalId="_mnWcnyuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Integer" value="22" internalId="_mnWcoCuTEe6qlusNOxKBkA"/>
@@ -64,13 +57,6 @@
     <contextParameter comment="" name="connection_commonPostgres_Port" prompt="connection_commonPostgres_Port?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="5432" internalId="_mnWctCuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_commonPostgres_Schema" prompt="connection_commonPostgres_Schema?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="customeranalytics" internalId="_mnWctSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_commonPostgres_Server" prompt="connection_commonPostgres_Server?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="pttgc-ipass-dev.cuaxh4kqthrc.ap-southeast-1.rds.amazonaws.com" internalId="_mnWctiuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_AdditionalParams" prompt="connection_commonRedshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_mnWctyuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Database" prompt="connection_commonRedshift_Database?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="dev" internalId="_mnWcuCuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Login" prompt="connection_commonRedshift_Login?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="talend_batch" internalId="_mnWcuSuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Password" prompt="connection_commonRedshift_Password?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_Password" value="enc:system.encryption.key.v1:Ximn1Ae12T/9qXJUzSDB94x7jVukJGnfdR4l0QElWvPayc8LwTWvEU/RI98=" internalId="_mnWcuiuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Port" prompt="connection_commonRedshift_Port?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="5439" internalId="_mnWcuyuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Schema" prompt="connection_commonRedshift_Schema?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_mnWcvCuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Server" prompt="connection_commonRedshift_Server?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com" internalId="_mnWcvSuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_host" prompt="connection_etcmSapSftp_host?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_String" value="&quot;10.36.128.27&quot;" internalId="_mnWcviuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_password" prompt="connection_etcmSapSftp_password?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Password" value="enc:system.encryption.key.v1:12Ftwg0Z3f/4oIj9FBAaVzJ/Cdt87XNWRDYOiFZqgt4mjdsQG0w=" internalId="_mnWcvyuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Integer" value="22" internalId="_mnWcwCuTEe6qlusNOxKBkA"/>
@@ -109,13 +95,6 @@
     <contextParameter comment="" name="connection_commonPostgres_Port" prompt="connection_commonPostgres_Port?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="5432" internalId="_mnWc1CuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_commonPostgres_Schema" prompt="connection_commonPostgres_Schema?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="customeranalytics" internalId="_mnWc1SuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_commonPostgres_Server" prompt="connection_commonPostgres_Server?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="pttgc-ipass-dev.cuaxh4kqthrc.ap-southeast-1.rds.amazonaws.com" internalId="_mnWc1iuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_AdditionalParams" prompt="connection_commonRedshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_mnWc1yuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Database" prompt="connection_commonRedshift_Database?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="dev" internalId="_mnWc2CuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Login" prompt="connection_commonRedshift_Login?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="talend_batch" internalId="_mnWc2SuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Password" prompt="connection_commonRedshift_Password?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_Password" value="enc:system.encryption.key.v1:0Yds0WYqG8tt5qvFOWDPqg/VyUz+yNr8sPVPebTS3B441aVr0rR11HtPdI0=" internalId="_mnWc2iuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Port" prompt="connection_commonRedshift_Port?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="5439" internalId="_mnWc2yuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Schema" prompt="connection_commonRedshift_Schema?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_mnWc3CuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Server" prompt="connection_commonRedshift_Server?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com" internalId="_mnWc3SuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_host" prompt="connection_etcmSapSftp_host?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_String" value="&quot;10.36.128.27&quot;" internalId="_mnWc3iuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_password" prompt="connection_etcmSapSftp_password?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Password" value="enc:system.encryption.key.v1:qX2hODZtEs4Hlt65xobh4dF1/L7fW4UzMORKF/ls8qLviMyTmUE=" internalId="_mnWc3yuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Integer" value="22" internalId="_mnWc4CuTEe6qlusNOxKBkA"/>
@@ -154,13 +133,6 @@
     <contextParameter comment="" name="connection_commonPostgres_Port" prompt="connection_commonPostgres_Port?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="5432" internalId="_mnWc9CuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_commonPostgres_Schema" prompt="connection_commonPostgres_Schema?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="customeranalytics" internalId="_mnWc9SuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_commonPostgres_Server" prompt="connection_commonPostgres_Server?" promptNeeded="false" repositoryContextId="_wm4N0N6REe2Q1sI5LVHJYQ" type="id_String" value="pttgc-ipass-dev.cuaxh4kqthrc.ap-southeast-1.rds.amazonaws.com" internalId="_mnWc9iuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_AdditionalParams" prompt="connection_commonRedshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_mnWc9yuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Database" prompt="connection_commonRedshift_Database?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="dev" internalId="_mnWc-CuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Login" prompt="connection_commonRedshift_Login?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="talend_batch" internalId="_mnWc-SuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Password" prompt="connection_commonRedshift_Password?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_Password" value="enc:system.encryption.key.v1:Foj77qqsOsRTjvtLpbT97/Oe+AsidNhfTHd8is76WzqInBv/vnUnOC98Jcs=" internalId="_mnWc-iuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Port" prompt="connection_commonRedshift_Port?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="5439" internalId="_mnWc-yuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Schema" prompt="connection_commonRedshift_Schema?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_mnWc_CuTEe6qlusNOxKBkA"/>
-    <contextParameter comment="" name="connection_commonRedshift_Server" prompt="connection_commonRedshift_Server?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com" internalId="_mnWc_SuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_host" prompt="connection_etcmSapSftp_host?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_String" value="&quot;10.36.128.27&quot;" internalId="_mnWc_iuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_password" prompt="connection_etcmSapSftp_password?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Password" value="enc:system.encryption.key.v1:K2GLLZAEub5sYcazTWaQ0MDTubUe+rDdHYZVUb569+i+blAa6SE=" internalId="_mnWc_yuTEe6qlusNOxKBkA"/>
     <contextParameter comment="" name="connection_etcmSapSftp_port" prompt="connection_etcmSapSftp_port?" promptNeeded="false" repositoryContextId="_OsoN8OV4Ee2glKlyYETBPw" type="id_Integer" value="22" internalId="_mnWdACuTEe6qlusNOxKBkA"/>
@@ -606,6 +578,7 @@
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="job_log_insert"/>
@@ -743,6 +716,7 @@
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="200" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="job_log_update"/>
@@ -783,6 +757,7 @@
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="job_log_control"/>
@@ -1088,6 +1063,7 @@
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="job_log_standard"/>
@@ -1136,6 +1112,7 @@
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="job_log_standard"/>
@@ -1184,6 +1161,7 @@
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="job_log_standard"/>
@@ -1299,12 +1277,15 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tRunJob_2">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk6" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tRunJob_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_4">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJavaRow_2">
@@ -1354,6 +1335,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_3">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFTPFileList_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFTPFileList_2" target="tCreateTemporaryFile_1">
@@ -1367,9 +1349,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate8" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFTPFileList_2" target="tRunJob_5">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tFTPFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFTPFileList_2" target="tRunJob_6">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tJava_6" offsetLabelX="0" offsetLabelY="0" source="tJava_6" target="tFTPGet_1">
