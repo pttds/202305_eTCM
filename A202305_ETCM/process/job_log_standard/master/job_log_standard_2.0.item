@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="connection_commonRedshift_AdditionalParams" prompt="connection_commonRedshift_AdditionalParams?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_IOnrMAs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="" name="connection_commonRedshift_Database" prompt="connection_commonRedshift_Database?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="dev" internalId="_IOnrMQs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="" name="connection_commonRedshift_Login" prompt="connection_commonRedshift_Login?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="talend_batch" internalId="_IOnrMgs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="" name="connection_commonRedshift_Password" prompt="connection_commonRedshift_Password?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_Password" value="enc:system.encryption.key.v1:9nIMOdqtbZFCHZcS6PPbFTis24Ox4Og2HDD0Y4WNVKXh2i+fHC+xQW8UBZk=" internalId="_IOnrMws0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="" name="connection_commonRedshift_Port" prompt="connection_commonRedshift_Port?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="5439" internalId="_IOnrNAs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="" name="connection_commonRedshift_Schema" prompt="connection_commonRedshift_Schema?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="" internalId="_IOnrNQs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="" name="connection_commonRedshift_Server" prompt="connection_commonRedshift_Server?" promptNeeded="false" repositoryContextId="_kDq28McOEe24x5pI_u09sQ" type="id_String" value="redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com" internalId="_IOnrNgs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="20230525" name="data_dt" prompt="data_dt?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrNws0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="Test plan 01" name="name_plan" prompt="name_plan?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrOAs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="Test task 01" name="name_task" prompt="name_task?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrOQs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="test test test" name="remark" prompt="remark?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrOgs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="999" name="row_count" prompt="row_count?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrOws0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="1" name="sequence" prompt="sequence?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_IOnrPAs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="test source" name="source" prompt="source?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrPQs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="done,fail,running" name="status" prompt="status?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrPgs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="test target" name="target" prompt="target?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrPws0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="1" name="total" prompt="total?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_IOnrQAs0Ee6Hw8EfMpITEw"/>
-    <contextParameter comment="test" name="type" prompt="type?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_IOnrQQs0Ee6Hw8EfMpITEw"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard" framework="">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="connection_CommonRedshiftArn_AdditionalParams" prompt="connection_CommonRedshiftArn_AdditionalParams?" promptNeeded="false" repositoryContextId="_GQeaQJJ9Ee69NYOOmTn0uw" type="id_String" value="" internalId="_ESFScJQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="" name="connection_CommonRedshiftArn_aws_secret" prompt="connection_CommonRedshiftArn_aws_secret?" promptNeeded="false" repositoryContextId="_GQeaQJJ9Ee69NYOOmTn0uw" type="id_String" value="arn:aws:secretsmanager:ap-southeast-1:002757059461:secret:nonprod/dbconnection/redshift_talend_batch-mgnZ8v" internalId="_ESFScZQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="" name="connection_CommonRedshiftArn_Database" prompt="connection_CommonRedshiftArn_Database?" promptNeeded="false" repositoryContextId="_GQeaQJJ9Ee69NYOOmTn0uw" type="id_String" value="dev" internalId="_ESFScpQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="" name="connection_CommonRedshiftArn_password" prompt="connection_CommonRedshiftArn_password?" promptNeeded="false" repositoryContextId="_GQeaQJJ9Ee69NYOOmTn0uw" type="id_Password" value="" internalId="_ESFSc5QTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="" name="connection_CommonRedshiftArn_Port" prompt="connection_CommonRedshiftArn_Port?" promptNeeded="false" repositoryContextId="_GQeaQJJ9Ee69NYOOmTn0uw" type="id_String" value="5439" internalId="_ESFSdJQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="" name="connection_CommonRedshiftArn_Schema" prompt="connection_CommonRedshiftArn_Schema?" promptNeeded="false" repositoryContextId="_GQeaQJJ9Ee69NYOOmTn0uw" type="id_String" value="" internalId="_ESFSdZQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="" name="connection_CommonRedshiftArn_Server" prompt="connection_CommonRedshiftArn_Server?" promptNeeded="false" repositoryContextId="_GQeaQJJ9Ee69NYOOmTn0uw" type="id_String" value="redshift-cluster-non-prod.cfkflzarhet5.ap-southeast-1.redshift.amazonaws.com" internalId="_ESFSdpQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="" name="connection_CommonRedshiftArn_username" prompt="connection_CommonRedshiftArn_username?" promptNeeded="false" repositoryContextId="_GQeaQJJ9Ee69NYOOmTn0uw" type="id_String" value="" internalId="_ESFSd5QTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="20230525" name="data_dt" prompt="data_dt?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSeJQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="Test plan 01" name="name_plan" prompt="name_plan?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSeZQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="Test task 01" name="name_task" prompt="name_task?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSepQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="test test test" name="remark" prompt="remark?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSe5QTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="999" name="row_count" prompt="row_count?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSfJQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="1" name="sequence" prompt="sequence?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_ESFSfZQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="test source" name="source" prompt="source?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSfpQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="done,fail,running" name="status" prompt="status?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSf5QTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="test target" name="target" prompt="target?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSgJQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="1" name="total" prompt="total?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_ESFSgZQTEe6h-LNhMMyfEQ"/>
+    <contextParameter comment="test" name="type" prompt="type?" promptNeeded="false" repositoryContextId="_6q3AsAsyEe6Hw8EfMpITEw" type="id_String" value="" internalId="_ESFSgpQTEe6h-LNhMMyfEQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -63,7 +64,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:XXuEJ5XRS9XKs96/2/awQKuv3PdGKHbwI2drJ+XC" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:4t8crD9VJ9vEsbr10H5DlOXvEQoHqX6X0XwG8NCN" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -98,7 +99,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:H4e8BRVQl/aYuvLcLanxIBrmS0j9y/QlwS16x2X/" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AKUNUxnUsvvqk2cf4eZWwt3DEHWI/nJtg/Imcxw+" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -132,6 +133,8 @@
     <routinesParameter id="_jJ5NOurOEeyEM_e3efIyMA" name="TalendDate"/>
     <routinesParameter id="_jJ5NTurOEeyEM_e3efIyMA" name="TalendStringUtil"/>
     <routinesParameter id="_jJ5NROrOEeyEM_e3efIyMA" name="TalendString"/>
+    <routinesParameter id="_AdXzkDdnEeuv0fwkK9YDPw" name="TalendAwsSecretsManagerHelper"/>
+    <routinesParameter id="_q8K_wJhkEeqSpb11jD3Tjg" name="AwsSecretsManagerUtil"/>
   </parameters>
   <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
@@ -165,20 +168,20 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_4"/>
   </node>
-  <node componentName="tRedshiftConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
+  <node componentName="tRedshiftConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_9Y-dsMbfEe24x5pI_u09sQ" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_K_yE4JPkEe6FROJTEsOfkA" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER_VERSION" value="DRIVER_V2"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_commonRedshift_Server"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_CommonRedshiftArn_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="REDSHIFT" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.connection_commonRedshift_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.connection_commonRedshift_Database"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_commonRedshift_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_commonRedshift_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:e/ATNlFL2T6ZEqMPVV9NzIP5mwS4gau1cepsMOFZSEcrpvGs6eQGr/ZOFZjFrb7D7AE3Qc4NJe9gpu4OLv0MHXSSoeAg1w=="/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_CommonRedshiftArn_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_CommonRedshiftArn_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_CommonRedshiftArn_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_CommonRedshiftArn_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vhFrYhbf5WdnHWiOcsTcwhe8kOQhtiX5++SxINCnA98FCyQRzOkxzHbIfi0td4aSiNI6AfsWAENgyJBRQ0XXWaQIK8fwIXQh1Q=="/>
     <elementParameter field="CHECK" name="USE_STRING_PROPERTIES" value="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_commonRedshift_AdditionalParams" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_CommonRedshiftArn_AdditionalParams" show="false"/>
     <elementParameter field="TABLE" name="ENTRY_PROPERTIES"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -484,7 +487,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xD;&#xA;UPDATE log.job_log_task SET&#xD;&#xA;updated_dt = GETDATE()&#xD;&#xA;,row_count = '&quot;+ context.row_count +&quot;'&#xD;&#xA;,status = '&quot;+ context.status +&quot;'&#xD;&#xA;,end_dt = GETDATE()&#xD;&#xA;,remark = '&quot;+ context.remark +&quot;'&#xD;&#xA;where id = '&quot;+ ((String)globalMap.get(&quot;plan_uuid&quot;)) +&quot;'&#xD;&#xA;and name = '&quot;+ context.name_task +&quot;'&#xD;&#xA;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xD;&#xA;UPDATE log.job_log_task SET&#xD;&#xA;updated_dt = GETDATE()&#xD;&#xA;,row_count = '&quot;+ context.row_count +&quot;'&#xD;&#xA;,status = '&quot;+ context.status +&quot;'&#xD;&#xA;,end_dt = GETDATE()&#xD;&#xA;,remark = '&quot;+ context.remark +&quot;'&#xD;&#xA;where no = (&#xD;&#xA;  SELECT TOP 1 no&#xD;&#xA;  FROM log.job_log_task&#xD;&#xA;  WHERE id = '&quot;+ ((String)globalMap.get(&quot;plan_uuid&quot;)) +&quot;'&#xD;&#xA;  and name = '&quot;+ context.name_task +&quot;'&#xD;&#xA;  ORDER BY updated_dt DESC&#xD;&#xA;)&#xD;&#xA;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="id" show="false"/>
@@ -515,7 +518,31 @@
       <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;this is a warning&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="joblet_retrieveAWSSecrets" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="joblet_retrieveAWSSecrets_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="SUBJOB_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tWarn_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="joblet_retrieveAWSSecrets"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tWarn_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
@@ -598,6 +625,12 @@
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tDBRow_4" offsetLabelX="0" offsetLabelY="0" source="tDBRow_4" target="tDBCommit_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tWarn_1" offsetLabelX="0" offsetLabelY="0" source="tWarn_1" target="joblet_retrieveAWSSecrets_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnSubjobOk (TRIGGER_OUTPUT_1)" lineStyle="1" metaname="joblet_retrieveAWSSecrets_1" offsetLabelX="0" offsetLabelY="0" source="joblet_retrieveAWSSecrets_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
@@ -690,6 +723,16 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="joblet_retrieveAWSSecrets_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>

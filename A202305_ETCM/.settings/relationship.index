@@ -32,11 +32,19 @@
     "version" : "Latest",
     "type" : "context"
   }, {
+    "id" : "_GQeaQJJ9Ee69NYOOmTn0uw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
     "id" : "_HDZl8OidEe2gVcx8wsHAYw",
     "version" : "Latest",
     "type" : "context"
   }, {
     "id" : "_OsoN8OV4Ee2glKlyYETBPw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_kiSMMGTPEe2zBup2i0oUJw",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -48,23 +56,19 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "INITIALPROJECT:_OZf0QNNpEe22FYYP9bg_Ng",
+    "id" : "_GTJXsDyXEeuTP5qDkF8ccQ",
     "version" : "Latest",
-    "type" : "job"
+    "type" : "joblet"
   }, {
-    "id" : "INITIALPROJECT:_kZ2isNONEe22FYYP9bg_Ng",
+    "id" : "AwsSecretsManagerUtil",
     "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "INITIALPROJECT:_lK1dgAshEe6Hw8EfMpITEw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "INITIALPROJECT:_o7b3gNONEe22FYYP9bg_Ng",
-    "version" : "Latest",
-    "type" : "job"
+    "type" : "routine"
   }, {
     "id" : "Generatedvalue",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendAwsSecretsManagerHelper",
     "version" : "Latest",
     "type" : "routine"
   } ]
@@ -160,30 +164,7 @@
 }, {
   "baseItem" : {
     "id" : "_lK1dgAshEe6Hw8EfMpITEw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_7IEqIP6aEe2GOOfXZwU6Rw",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_pla8UMVuEe2-YPe43jJGDQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_yPNa0Hn6Ee2rk_t22VedRg",
-    "version" : "Latest",
-    "type" : "property"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_lK1dgAshEe6Hw8EfMpITEw",
-    "version" : "1.0",
+    "version" : "2.0",
     "type" : "job"
   },
   "relatedItems" : [ {
@@ -191,11 +172,15 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_kDq28McOEe24x5pI_u09sQ",
+    "id" : "_GQeaQJJ9Ee69NYOOmTn0uw",
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_9Y-dsMbfEe24x5pI_u09sQ",
+    "id" : "_GTJXsDyXEeuTP5qDkF8ccQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_K_yE4JPkEe6FROJTEsOfkA",
     "version" : "Latest",
     "type" : "property"
   }, {
@@ -206,6 +191,61 @@
     "id" : "_yPNa0Hn6Ee2rk_t22VedRg",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "AwsSecretsManagerUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendAwsSecretsManagerHelper",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_nh5aELQbEe6OZIBPMn5TXQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_GQeaQJJ9Ee69NYOOmTn0uw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_cwaiwLRCEe6AQ9ccasHPgA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_hqUtcLRBEe6AQ9ccasHPgA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "INITIALPROJECT:_lK1dgAshEe6Hw8EfMpITEw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_GTJXsDyXEeuTP5qDkF8ccQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_Bylv0FtUEe2fyLmtog_2nw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "AwsSecretsManagerUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DIJobLogUtilsNew",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendAwsSecretsManagerHelper",
+    "version" : "Latest",
+    "type" : "routine"
   } ]
 }, {
   "baseItem" : {

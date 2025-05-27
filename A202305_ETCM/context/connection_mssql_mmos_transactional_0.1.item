@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_kihcwGTPEe2zBup2i0oUJw" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_kihcwWTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_username" prompt="connection_mssql_mmos_tr_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SVCMMOS1"/>
+    <contextParameter xmi:id="_kihcwmTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_Port" prompt="connection_mssql_mmos_tr_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_kihcw2TPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_password" prompt="connection_mssql_mmos_tr_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter xmi:id="_kihcxGTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_AdditionalParams" prompt="connection_mssql_mmos_tr_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="domain=pttgc;integratedSecurity=true;authenticationScheme=NTLM"/>
+    <contextParameter xmi:id="_kihcxWTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_Database" prompt="connection_mssql_mmos_tr_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="INTF_Transactional"/>
+    <contextParameter xmi:id="_kihcxmTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_Schema" prompt="connection_mssql_mmos_tr_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_kihcx2TPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_Server" prompt="connection_mssql_mmos_tr_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GCAWSDMMOS1DB1.pttgc.corp"/>
+    <contextParameter xmi:id="_fXUiQKOQEe2_ov2rXu13nQ" comment="" name="connection_mssql_mmos_tr_aws_secret" prompt="connection_mssql_mmos_tr_aws_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="arn:aws:secretsmanager:ap-southeast-1:002757059461:secret:nonprod/dbconnection/mssql_mmos-OfVl4C"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_kihcyGTPEe2zBup2i0oUJw" confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter xmi:id="_kihcyWTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_username" prompt="connection_mssql_mmos_tr_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SVCMMOS1"/>
+    <contextParameter xmi:id="_kihcymTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_Port" prompt="connection_mssql_mmos_tr_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_kihcy2TPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_password" prompt="connection_mssql_mmos_tr_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter xmi:id="_kihczGTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_AdditionalParams" prompt="connection_mssql_mmos_tr_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="domain=pttgc;integratedSecurity=true;authenticationScheme=NTLM"/>
+    <contextParameter xmi:id="_kihczWTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_Database" prompt="connection_mssql_mmos_tr_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="INTF_Transactional"/>
+    <contextParameter xmi:id="_kihczmTPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_Schema" prompt="connection_mssql_mmos_tr_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_kihcz2TPEe2zBup2i0oUJw" comment="" name="connection_mssql_mmos_tr_Server" prompt="connection_mssql_mmos_tr_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GCAWSDMMOS1DB1.pttgc.corp"/>
+    <contextParameter xmi:id="_fXUiQaOQEe2_ov2rXu13nQ" comment="" name="connection_mssql_mmos_tr_aws_secret" prompt="connection_mssql_mmos_tr_aws_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

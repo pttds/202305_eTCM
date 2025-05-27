@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_rBLUQHtiEe24HeqwKvl0Hg" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_xrWGMHtiEe24HeqwKvl0Hg" comment="" name="connection_commonSapSftp_host" prompt="connection_commonSapSftp_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;10.36.128.27&quot;"/>
+  <contextParameter xmi:id="_xrWGMXtiEe24HeqwKvl0Hg" comment="" name="connection_commonSapSftp_port" prompt="connection_commonSapSftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  <contextParameter xmi:id="_xrWGMntiEe24HeqwKvl0Hg" comment="" name="connection_commonSapSftp_username" prompt="connection_commonSapSftp_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dev_mmos&quot;"/>
+  <contextParameter xmi:id="_xrWGM3tiEe24HeqwKvl0Hg" comment="" name="connection_commonSapSftp_password" prompt="connection_commonSapSftp_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:OKLwCajSoHT+tQ9c/iK33Xal2NER/qYF41W/eTVsGHDHBQoCI/E="/>
+  <contextParameter xmi:id="_LmxUMK3pEe25R_4jlWneYQ" comment="" name="connection_commonSapSftp_aws_secret" prompt="connection_commonSapSftp_aws_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="arn:aws:secretsmanager:ap-southeast-1:002757059461:secret:nonprod/sftp/mmos_sap-q8WSmH"/>
+</talendfile:ContextType>
