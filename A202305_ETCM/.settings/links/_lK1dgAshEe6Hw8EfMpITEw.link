@@ -1,0 +1,69 @@
+{
+  "itemId" : "_lK1dgAshEe6Hw8EfMpITEw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_GQeaQJJ9Ee69NYOOmTn0uw",
+    "parameterList" : [ {
+      "id" : "_GQlvAZJ9Ee69NYOOmTn0uw",
+      "name" : "connection_CommonRedshiftArn_AdditionalParams"
+    }, {
+      "id" : "_GQlvCJJ9Ee69NYOOmTn0uw",
+      "name" : "connection_CommonRedshiftArn_aws_secret"
+    }, {
+      "id" : "_GQlvApJ9Ee69NYOOmTn0uw",
+      "name" : "connection_CommonRedshiftArn_Database"
+    }, {
+      "id" : "_GQlvBJJ9Ee69NYOOmTn0uw",
+      "name" : "connection_CommonRedshiftArn_password"
+    }, {
+      "id" : "_GQlvBZJ9Ee69NYOOmTn0uw",
+      "name" : "connection_CommonRedshiftArn_Port"
+    }, {
+      "id" : "_GQlvBpJ9Ee69NYOOmTn0uw",
+      "name" : "connection_CommonRedshiftArn_Schema"
+    }, {
+      "id" : "_GQlvB5J9Ee69NYOOmTn0uw",
+      "name" : "connection_CommonRedshiftArn_Server"
+    }, {
+      "id" : "_GQlvA5J9Ee69NYOOmTn0uw",
+      "name" : "connection_CommonRedshiftArn_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_6q3AsAsyEe6Hw8EfMpITEw",
+    "parameterList" : [ {
+      "id" : "_s6CCWPsREe2P_Pejgfw8OA",
+      "name" : "data_dt"
+    }, {
+      "id" : "_s6CCUPsREe2P_Pejgfw8OA",
+      "name" : "name_plan"
+    }, {
+      "id" : "_s6CCUfsREe2P_Pejgfw8OA",
+      "name" : "name_task"
+    }, {
+      "id" : "_s6CCWvsREe2P_Pejgfw8OA",
+      "name" : "remark"
+    }, {
+      "id" : "_s6CCWfsREe2P_Pejgfw8OA",
+      "name" : "row_count"
+    }, {
+      "id" : "_s6CCUvsREe2P_Pejgfw8OA",
+      "name" : "sequence"
+    }, {
+      "id" : "_s6CCVvsREe2P_Pejgfw8OA",
+      "name" : "source"
+    }, {
+      "id" : "_Qy-3YP6bEe2GOOfXZwU6Rw",
+      "name" : "status"
+    }, {
+      "id" : "_s6CCV_sREe2P_Pejgfw8OA",
+      "name" : "target"
+    }, {
+      "id" : "_s6CCU_sREe2P_Pejgfw8OA",
+      "name" : "total"
+    }, {
+      "id" : "_s6CCVfsREe2P_Pejgfw8OA",
+      "name" : "type"
+    } ]
+  } ]
+}

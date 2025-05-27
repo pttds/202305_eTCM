@@ -35,14 +35,6 @@
     <contextParameter comment="" name="connection_mssql_mmos_tr_Schema" prompt="connection_mssql_mmos_tr_Schema?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="dbo" internalId="_mO5UejqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="connection_mssql_mmos_tr_Server" prompt="connection_mssql_mmos_tr_Server?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="GCAWSDMMOS1DB1.pttgc.corp" internalId="_mO5UezqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="connection_mssql_mmos_tr_username" prompt="connection_mssql_mmos_tr_username?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="SVCMMOS1" internalId="_mO5UfDqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO5UfTqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="Test task 01" name="zlog02_name_task" prompt="zlog02_name_task?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO5UfjqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="1" name="zlog03_sequence" prompt="zlog03_sequence?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_mO5UfzqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="1" name="zlog04_total" prompt="zlog04_total?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_mO5UgDqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test" name="zlog05_type" prompt="zlog05_type?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO5UgTqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test source" name="zlog06_source" prompt="zlog06_source?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO5UgjqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test target" name="zlog07_target" prompt="zlog07_target?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO5UgzqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO5UhDqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="sap_sftp_folder" prompt="sap_sftp_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/interface/SFTP_DEV/eTCM/data/In/&quot;" internalId="_2KQk4DqrEfCsZ52_rEB7cQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="dev">
@@ -80,14 +72,6 @@
     <contextParameter comment="" name="connection_mssql_mmos_tr_Schema" prompt="connection_mssql_mmos_tr_Schema?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="dbo" internalId="_mO57ijqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="connection_mssql_mmos_tr_Server" prompt="connection_mssql_mmos_tr_Server?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="GCAWSDMMOS1DB1.pttgc.corp" internalId="_mO57izqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="connection_mssql_mmos_tr_username" prompt="connection_mssql_mmos_tr_username?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="SVCMMOS1" internalId="_mO57jDqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57jTqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="Test task 01" name="zlog02_name_task" prompt="zlog02_name_task?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57jjqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="1" name="zlog03_sequence" prompt="zlog03_sequence?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_mO57jzqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="1" name="zlog04_total" prompt="zlog04_total?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_mO57kDqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test" name="zlog05_type" prompt="zlog05_type?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57kTqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test source" name="zlog06_source" prompt="zlog06_source?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57kjqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test target" name="zlog07_target" prompt="zlog07_target?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57kzqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57lDqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="sap_sftp_folder" prompt="sap_sftp_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_2KRL8DqrEfCsZ52_rEB7cQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="qa">
@@ -125,14 +109,6 @@
     <contextParameter comment="" name="connection_mssql_mmos_tr_Schema" prompt="connection_mssql_mmos_tr_Schema?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="dbo" internalId="_mO57rzqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="connection_mssql_mmos_tr_Server" prompt="connection_mssql_mmos_tr_Server?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="GCAWSDMMOS1DB1.pttgc.corp" internalId="_mO57sDqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="connection_mssql_mmos_tr_username" prompt="connection_mssql_mmos_tr_username?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="SVCMMOS1" internalId="_mO57sTqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57sjqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="Test task 01" name="zlog02_name_task" prompt="zlog02_name_task?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57szqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="1" name="zlog03_sequence" prompt="zlog03_sequence?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_mO57tDqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="1" name="zlog04_total" prompt="zlog04_total?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_mO57tTqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test" name="zlog05_type" prompt="zlog05_type?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57tjqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test source" name="zlog06_source" prompt="zlog06_source?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57tzqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test target" name="zlog07_target" prompt="zlog07_target?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57uDqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO57uTqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="sap_sftp_folder" prompt="sap_sftp_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_2KRL8TqrEfCsZ52_rEB7cQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="prod">
@@ -170,14 +146,6 @@
     <contextParameter comment="" name="connection_mssql_mmos_tr_Schema" prompt="connection_mssql_mmos_tr_Schema?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="dbo" internalId="_mO6ihzqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="connection_mssql_mmos_tr_Server" prompt="connection_mssql_mmos_tr_Server?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="GCAWSDMMOS1DB1.pttgc.corp" internalId="_mO6iiDqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="connection_mssql_mmos_tr_username" prompt="connection_mssql_mmos_tr_username?" promptNeeded="false" repositoryContextId="_kiSMMGTPEe2zBup2i0oUJw" type="id_String" value="SVCMMOS1" internalId="_mO6iiTqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="Test plan 01" name="zlog01_name_plan" prompt="zlog01_name_plan?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO6iijqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="Test task 01" name="zlog02_name_task" prompt="zlog02_name_task?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO6iizqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="1" name="zlog03_sequence" prompt="zlog03_sequence?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_mO6ijDqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="1" name="zlog04_total" prompt="zlog04_total?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_Integer" value="" internalId="_mO6ijTqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test" name="zlog05_type" prompt="zlog05_type?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO6ijjqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test source" name="zlog06_source" prompt="zlog06_source?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO6ijzqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test target" name="zlog07_target" prompt="zlog07_target?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO6ikDqrEfCsZ52_rEB7cQ"/>
-    <contextParameter comment="test remark" name="zlog08_remark" prompt="zlog08_remark?" promptNeeded="false" repositoryContextId="_6weEAAszEe6Hw8EfMpITEw" type="id_String" value="" internalId="_mO6ikTqrEfCsZ52_rEB7cQ"/>
     <contextParameter comment="" name="sap_sftp_folder" prompt="sap_sftp_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_2KRL8jqrEfCsZ52_rEB7cQ"/>
   </context>
   <parameters>

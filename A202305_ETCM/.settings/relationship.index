@@ -28,10 +28,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_6weEAAszEe6Hw8EfMpITEw",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "_GQeaQJJ9Ee69NYOOmTn0uw",
     "version" : "Latest",
     "type" : "context"
