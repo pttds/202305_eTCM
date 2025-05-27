@@ -2,31 +2,6 @@
   "itemId" : "_FT4JADqkEfCzj-lz5qcpdA",
   "contextList" : [ {
     "contextName" : "Default",
-    "repoId" : "_wm4N0N6REe2Q1sI5LVHJYQ",
-    "parameterList" : [ {
-      "id" : "_wnDM9t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_AdditionalParams"
-    }, {
-      "id" : "_wnDM9d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Database"
-    }, {
-      "id" : "_wnDM996REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Login"
-    }, {
-      "id" : "_wnDM8d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Password"
-    }, {
-      "id" : "_wnDM8t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Port"
-    }, {
-      "id" : "_wnDM896REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Schema"
-    }, {
-      "id" : "_wnDM9N6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Server"
-    } ]
-  }, {
-    "contextName" : "Default",
     "repoId" : "_GQeaQJJ9Ee69NYOOmTn0uw",
     "parameterList" : [ {
       "id" : "_GQlvAZJ9Ee69NYOOmTn0uw",
@@ -81,56 +56,6 @@
     }, {
       "id" : "_HDsg4-idEe2gVcx8wsHAYw",
       "name" : "connection_etcmWebserverFtps_username"
-    } ]
-  }, {
-    "contextName" : "Default",
-    "repoId" : "_kiSMMGTPEe2zBup2i0oUJw",
-    "parameterList" : [ {
-      "id" : "_kihcxGTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_AdditionalParams"
-    }, {
-      "id" : "_kihcxWTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Database"
-    }, {
-      "id" : "_kihcw2TPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_password"
-    }, {
-      "id" : "_kihcwmTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Port"
-    }, {
-      "id" : "_kihcxmTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Schema"
-    }, {
-      "id" : "_kihcx2TPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Server"
-    }, {
-      "id" : "_kihcwWTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_username"
-    } ]
-  }, {
-    "contextName" : "dev",
-    "repoId" : "_wm4N0N6REe2Q1sI5LVHJYQ",
-    "parameterList" : [ {
-      "id" : "_wnDM9t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_AdditionalParams"
-    }, {
-      "id" : "_wnDM9d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Database"
-    }, {
-      "id" : "_wnDM996REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Login"
-    }, {
-      "id" : "_wnDM8d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Password"
-    }, {
-      "id" : "_wnDM8t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Port"
-    }, {
-      "id" : "_wnDM896REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Schema"
-    }, {
-      "id" : "_wnDM9N6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Server"
     } ]
   }, {
     "contextName" : "dev",
@@ -190,56 +115,6 @@
       "name" : "connection_etcmWebserverFtps_username"
     } ]
   }, {
-    "contextName" : "dev",
-    "repoId" : "_kiSMMGTPEe2zBup2i0oUJw",
-    "parameterList" : [ {
-      "id" : "_kihczGTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_AdditionalParams"
-    }, {
-      "id" : "_kihczWTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Database"
-    }, {
-      "id" : "_kihcy2TPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_password"
-    }, {
-      "id" : "_kihcymTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Port"
-    }, {
-      "id" : "_kihczmTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Schema"
-    }, {
-      "id" : "_kihcz2TPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Server"
-    }, {
-      "id" : "_kihcyWTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_username"
-    } ]
-  }, {
-    "contextName" : "qa",
-    "repoId" : "_wm4N0N6REe2Q1sI5LVHJYQ",
-    "parameterList" : [ {
-      "id" : "_wnDM9t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_AdditionalParams"
-    }, {
-      "id" : "_wnDM9d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Database"
-    }, {
-      "id" : "_wnDM996REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Login"
-    }, {
-      "id" : "_wnDM8d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Password"
-    }, {
-      "id" : "_wnDM8t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Port"
-    }, {
-      "id" : "_wnDM896REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Schema"
-    }, {
-      "id" : "_wnDM9N6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Server"
-    } ]
-  }, {
     "contextName" : "qa",
     "repoId" : "_GQeaQJJ9Ee69NYOOmTn0uw",
     "parameterList" : [ {
@@ -297,56 +172,6 @@
       "name" : "connection_etcmWebserverFtps_username"
     } ]
   }, {
-    "contextName" : "qa",
-    "repoId" : "_kiSMMGTPEe2zBup2i0oUJw",
-    "parameterList" : [ {
-      "id" : "_kihczGTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_AdditionalParams"
-    }, {
-      "id" : "_kihczWTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Database"
-    }, {
-      "id" : "_kihcy2TPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_password"
-    }, {
-      "id" : "_kihcymTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Port"
-    }, {
-      "id" : "_kihczmTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Schema"
-    }, {
-      "id" : "_kihcz2TPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Server"
-    }, {
-      "id" : "_kihcyWTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_username"
-    } ]
-  }, {
-    "contextName" : "prod",
-    "repoId" : "_wm4N0N6REe2Q1sI5LVHJYQ",
-    "parameterList" : [ {
-      "id" : "_wnDM9t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_AdditionalParams"
-    }, {
-      "id" : "_wnDM9d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Database"
-    }, {
-      "id" : "_wnDM996REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Login"
-    }, {
-      "id" : "_wnDM8d6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Password"
-    }, {
-      "id" : "_wnDM8t6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Port"
-    }, {
-      "id" : "_wnDM896REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Schema"
-    }, {
-      "id" : "_wnDM9N6REe2Q1sI5LVHJYQ",
-      "name" : "connection_commonPostgres_Server"
-    } ]
-  }, {
     "contextName" : "prod",
     "repoId" : "_GQeaQJJ9Ee69NYOOmTn0uw",
     "parameterList" : [ {
@@ -402,31 +227,6 @@
     }, {
       "id" : "_dA4cr-1NEe2k-_mI1S9LTg",
       "name" : "connection_etcmWebserverFtps_username"
-    } ]
-  }, {
-    "contextName" : "prod",
-    "repoId" : "_kiSMMGTPEe2zBup2i0oUJw",
-    "parameterList" : [ {
-      "id" : "_kihczGTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_AdditionalParams"
-    }, {
-      "id" : "_kihczWTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Database"
-    }, {
-      "id" : "_kihcy2TPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_password"
-    }, {
-      "id" : "_kihcymTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Port"
-    }, {
-      "id" : "_kihczmTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Schema"
-    }, {
-      "id" : "_kihcz2TPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_Server"
-    }, {
-      "id" : "_kihcyWTPEe2zBup2i0oUJw",
-      "name" : "connection_mssql_mmos_tr_username"
     } ]
   } ]
 }
