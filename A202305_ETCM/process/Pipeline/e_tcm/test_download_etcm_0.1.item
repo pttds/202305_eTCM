@@ -8,6 +8,7 @@
     <contextParameter comment="" name="connection_etcmWebserverFtps_port" prompt="connection_etcmWebserverFtps_port?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Integer" value="21" internalId="_c7QT1DtxEfCd5NCMz0Ib_w"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_username" prompt="connection_etcmWebserverFtps_username?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;FTPS&quot;" internalId="_c7QT1TtxEfCd5NCMz0Ib_w"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\\eTCM\\&quot;" internalId="_c7QT1jtxEfCd5NCMz0Ib_w"/>
+    <contextParameter comment="" name="local_path" prompt="local_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/Users/z0011210/Documents/etcm&quot;" internalId="_US9y4DtyEfCd5NCMz0Ib_w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="qa">
     <contextParameter comment="" name="connection_etcmWebserverFtps_host" prompt="connection_etcmWebserverFtps_host?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;10.36.132.29&quot;" internalId="_c7QT1ztxEfCd5NCMz0Ib_w"/>
@@ -17,6 +18,7 @@
     <contextParameter comment="" name="connection_etcmWebserverFtps_port" prompt="connection_etcmWebserverFtps_port?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Integer" value="21" internalId="_c7QT2ztxEfCd5NCMz0Ib_w"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_username" prompt="connection_etcmWebserverFtps_username?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;FTPS&quot;" internalId="_c7QT3DtxEfCd5NCMz0Ib_w"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_c7QT3TtxEfCd5NCMz0Ib_w"/>
+    <contextParameter comment="" name="local_path" prompt="local_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_US9y4TtyEfCd5NCMz0Ib_w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="prod">
     <contextParameter comment="" name="connection_etcmWebserverFtps_host" prompt="connection_etcmWebserverFtps_host?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;10.36.132.29&quot;" internalId="_c7QT3jtxEfCd5NCMz0Ib_w"/>
@@ -26,6 +28,7 @@
     <contextParameter comment="" name="connection_etcmWebserverFtps_port" prompt="connection_etcmWebserverFtps_port?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Integer" value="21" internalId="_c7QT4jtxEfCd5NCMz0Ib_w"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_username" prompt="connection_etcmWebserverFtps_username?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;FTPS&quot;" internalId="_c7QT4ztxEfCd5NCMz0Ib_w"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_c7QT5DtxEfCd5NCMz0Ib_w"/>
+    <contextParameter comment="" name="local_path" prompt="local_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_US9y4jtyEfCd5NCMz0Ib_w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="dev">
     <contextParameter comment="" name="connection_etcmWebserverFtps_host" prompt="connection_etcmWebserverFtps_host?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;10.36.132.29&quot;" internalId="_c7QT5TtxEfCd5NCMz0Ib_w"/>
@@ -35,6 +38,7 @@
     <contextParameter comment="" name="connection_etcmWebserverFtps_port" prompt="connection_etcmWebserverFtps_port?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_Integer" value="21" internalId="_c7aE0TtxEfCd5NCMz0Ib_w"/>
     <contextParameter comment="" name="connection_etcmWebserverFtps_username" prompt="connection_etcmWebserverFtps_username?" promptNeeded="false" repositoryContextId="_HDZl8OidEe2gVcx8wsHAYw" type="id_String" value="&quot;FTPS&quot;" internalId="_c7aE0jtxEfCd5NCMz0Ib_w"/>
     <contextParameter comment="" name="etcm_path" prompt="etcm_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_c7aE0ztxEfCd5NCMz0Ib_w"/>
+    <contextParameter comment="" name="local_path" prompt="local_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_US9y4ztyEfCd5NCMz0Ib_w"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -187,7 +191,7 @@
     <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:GQCZ+0RcUdP027E4WsYVuKN06cTFXOog7y2FScujF6qVEcBq" show="false"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="KEYSTORE_PASS" value="enc:system.encryption.key.v1:Nws9RQIWo1hPn18OAKCbxqKMVUPYeS4W/IL/Qs1zeUACij1s" show="false"/>
-    <elementParameter field="DIRECTORY" name="LOCALDIR" value="&quot;C:/Users/z0011210/Documents/etcm&quot;"/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.local_path"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="context.etcm_path"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true"/>
     <elementParameter field="CLOSED_LIST" name="MODE" value="ascii" show="false"/>
