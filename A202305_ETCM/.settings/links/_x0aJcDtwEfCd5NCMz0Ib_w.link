@@ -1,0 +1,56 @@
+{
+  "itemId" : "_x0aJcDtwEfCd5NCMz0Ib_w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_HDZl8OidEe2gVcx8wsHAYw",
+    "parameterList" : [ {
+      "id" : "_HDsg4eidEe2gVcx8wsHAYw",
+      "name" : "connection_etcmWebserverFtps_host"
+    }, {
+      "id" : "_HDsg4uidEe2gVcx8wsHAYw",
+      "name" : "connection_etcmWebserverFtps_port"
+    }, {
+      "id" : "_HDsg4-idEe2gVcx8wsHAYw",
+      "name" : "connection_etcmWebserverFtps_username"
+    } ]
+  }, {
+    "contextName" : "qa",
+    "repoId" : "_HDZl8OidEe2gVcx8wsHAYw",
+    "parameterList" : [ {
+      "id" : "_dA4cp-1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_host"
+    }, {
+      "id" : "_dA4cqO1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_port"
+    }, {
+      "id" : "_dA4cqe1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_username"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_HDZl8OidEe2gVcx8wsHAYw",
+    "parameterList" : [ {
+      "id" : "_dA4cre1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_host"
+    }, {
+      "id" : "_dA4cru1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_port"
+    }, {
+      "id" : "_dA4cr-1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_username"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_HDZl8OidEe2gVcx8wsHAYw",
+    "parameterList" : [ {
+      "id" : "_dA4coe1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_host"
+    }, {
+      "id" : "_dA4cou1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_port"
+    }, {
+      "id" : "_dA4co-1NEe2k-_mI1S9LTg",
+      "name" : "connection_etcmWebserverFtps_username"
+    } ]
+  } ]
+}
